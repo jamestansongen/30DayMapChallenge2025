@@ -1,0 +1,215 @@
+Height Rank,Wainwright Fell Name,Height (m),Height (ft),Grid Reference,Explorer Map,Landranger Map,Wainwright Book,DoBIH Classification,x,y
+1st,Scafell Pike,978,3209,NY215072,OL6,"89, 90",Southern Fells,"Ma, F, Sim, Hew, N, W, B, Sy, Fel, CoH, CoU, CoA",321500,507200
+2nd,Scafell,964,3162,NY206064,OL6,"89, 90",Southern Fells,"Hu, F, Sim, Hew, N, W, B, Sy, Fel",320600,506400
+3rd,Helvellyn,950,3116,NY342151,OL5,90,Eastern Fells,"Ma, F, Sim, Hew, N, W, B, Sy, Fel, CoH",334200,515100
+4th,Skiddaw,930,3052,NY260290,OL4,"89, 90",Northern Fells,"Ma, F, Sim, Hew, N, W, B, Sy, Fel",326000,529000
+5th,Great End,910,2984,NY226083,OL6,"89, 90",Southern Fells,"Sim, Hew, N, W, B, Sy, Fel",322600,508300
+6th,Bowfell,903,2962,NY244064,OL6,"89, 90",Southern Fells,"Hu, Sim, Hew, N, sMa, W, B, Sy, Fel",324400,506400
+7th,Great Gable,899,2949,NY211103,"OL4, OL6","89, 90",Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",321100,510300
+8th,Pillar,892,2928,NY171121,OL4,"89, 90",Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",317100,512100
+9th,Nethermost Pike,891,2924,NY343142,OL5,90,Eastern Fells,"N, sSim, W, B, Sy, Fel",334300,514200
+10th,Catstye Cam,890,2919,NY348158,OL5,90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",334800,515800
+11th,Esk Pike,885,2904,NY236075,OL6,"89, 90",Southern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",323600,507500
+12th,Raise,883,2896,NY342174,OL5,90,Eastern Fells,"Sim, Hew, N, sHu, W, B, Sy, Fel",334200,517400
+13th,Fairfield,873,2865,NY358117,OL5,90,Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",335800,511700
+14th,Blencathra,868,2847,NY323277,OL5,90,Northern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",332300,527700
+15th,Skiddaw Little Man,865,2838,NY266277,OL4,"89, 90",Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",326600,527700
+16th,White Side,863,2832,NY337166,OL5,90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",333700,516600
+17th,Crinkle Crags,859,2818,NY248048,OL6,"89, 90",Southern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",324800,504800
+18th,Dollywaggon Pike,859,2817,NY346130,OL5,90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",334600,513000
+19th,Great Dodd,857,2812,NY342205,OL5,90,Eastern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",334200,520500
+20th,Grasmoor,852,2794,NY174203,OL4,"89, 90",North Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",317400,520300
+21st,Stybarrow Dodd,844,2768,NY343189,OL5,90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",334300,518900
+22nd,St Sunday Crag,841,2760,NY369133,OL5,90,Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",336900,513300
+23rd,Scoat Fell,841,2759,NY159113,OL4,89,Western Fells,"Sim, Hew, N, W, B, Sy, Fel",315900,511300
+24th,Crag Hill (Eel Crag),839,2753,NY192203,OL4,"89, 90",North Western Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",319200,520300
+25th,High Street,828,2717,NY440110,OL5,90,Far Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",344000,511000
+26th,Red Pike (Wasdale),826,2710,NY165106,"OL4, OL6",89,Western Fells,"Sim, Hew, N, W, B, Sy, Fel",316500,510600
+27th,Hart Crag,823,2700,NY368112,OL5,90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",336800,511200
+28th,Steeple,819,2687,NY157116,OL4,89,Western Fells,"N, sSim, W, B, Sy, Fel",315700,511600
+29th,Lingmell,807,2648,NY209081,OL6,"89, 90",Southern Fells,"Sim, Hew, N, W, B, Sy, Fel",320900,508100
+30th,High Stile,806,2645,NY167147,OL4,89,Western Fells,"W, B",316700,514700
+31st,High Raise (High Street),804,2636,NY448134,OL5,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",344800,513400
+32nd,Swirl How,802,2633,NY272005,OL6,"89, 90",Southern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",327200,500500
+33rd,The Old Man of Coniston,802,2633,SD272978,OL6,"96, 97",Southern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel, CoH",327200,497800
+34th,Kirk Fell,802,2631,NY194104,"OL4, OL6","89, 90",Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",319400,510400
+35th,Green Gable,801,2628,NY214107,"OL4, OL6","89, 90",Western Fells,"Sim, Hew, N, W, B, Sy, Fel",321400,510700
+36th,Haycock,797,2615,NY144107,"OL4, OL6",89,Western Fells,"Sim, Hew, N, sHu, W, B, Sy, Fel",314400,510700
+37th,Brim Fell,796,2611,SD270985,OL6,"96, 97",Southern Fells,"N, W, B, Sy, Fel",327000,498500
+38th,Rampsgill Head,792,2600,NY443128,OL5,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",344300,512800
+39th,Dove Crag,792,2598,NY374104,"OL5, OL7",90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",337400,510400
+40th,Grisedale Pike,791,2595,NY198225,OL4,"89, 90",North Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",319800,522500
+41st,Watson’s Dodd,789,2589,NY335195,OL5,90,Eastern Fells,"W, B, Sy, Fel",333500,519500
+42nd,Allen Crags,785,2575,NY236085,OL6,"89, 90",Southern Fells,"Sim, Hew, N, W, B, Sy, Fel",323600,508500
+43rd,Great Carrs,785,2575,NY270009,OL6,"89, 90",Southern Fells,"N, sSim, W, B, Sy, Fel",327000,500900
+44th,Thornthwaite Crag,784,2572,NY431100,"OL5, OL7",90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",343100,510000
+45th,Glaramara,783,2569,NY245104,"OL4, OL6","89, 90",Southern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",324500,510400
+46th,Kidsty Pike,781,2562,NY447125,OL5,90,Far Eastern Fells,"N, W, B, Sy, Fel",344700,512500
+47th,Harter Fell (Mardale),779,2556,NY459093,"OL5, OL7",90,Far Eastern Fells,"Hu, Sim, Hew, N, sMa, W, B, Sy, Fel",345900,509300
+48th,Dow Crag,778,2552,SD262977,OL6,"96, 97",Southern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",326200,497700
+49th,Red Screes,776,2546,NY396087,OL7,90,Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",339600,508700
+50th,Wandope,774,2539,NY188197,OL4,"89, 90",North Western Fells,"Sim, Hew, N, W, B, Sy, Fel",318800,519700
+51st,Grey Friar,773,2536,NY260003,OL6,"89, 90",Southern Fells,"Sim, Hew, N, W, B, Sy, Fel",326000,500300
+52nd,Sail,773,2536,NY198202,OL4,"89, 90",North Western Fells,"Sim, Hew, N, W, B, Sy, Fel",319800,520200
+53rd,Hopegill Head,770,2525,NY185221,OL4,"89, 90",North Western Fells,"Sim, Hew, N, sHu, W, B, Sy, Fel",318500,522100
+54th,Great Rigg,766,2514,NY355104,"OL5, OL7",90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",335500,510400
+55th,Stony Cove Pike (Caudale Moor),764,2506,NY417100,"OL5, OL7",90,Far Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",341700,510000
+56th,Wetherlam,763,2503,NY288011,OL6,"89, 90",Southern Fells,"Hu, Sim, Hew, N, sMa, W, B, Sy, Fel",328800,501100
+57th,High Raise (High White Stones),762,2500,NY280095,"OL4, OL6","89, 90",Central Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",328000,509500
+58th,Slight Side,762,2500,NY209050,OL6,"89, 90",Southern Fells,"W, B, Sy, Fel, xN",320900,505000
+59th,Mardale Ill Bell,760,2493,NY447101,"OL5, OL7",90,Far Eastern Fells,"W, B, Sy, Fel, xN",344700,510100
+60th,Ill Bell,757,2484,NY436077,OL7,90,Far Eastern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",343600,507700
+61st,Hart Side,756,2480,NY359197,OL5,90,Eastern Fells,"N, sSim, W, B, Sy, Fel",335900,519700
+62nd,Red Pike (Buttermere),755,2478,NY160154,OL4,89,Western Fells,"Sim, Hew, N, W, B, Sy, Fel",316000,515400
+63rd,Dale Head,753,2470,NY222153,OL4,"89, 90",North Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",322200,515300
+64th,Carl Side,747,2450,NY254280,OL4,"89, 90",Northern Fells,"N, W, B, Sy, Fel, sSim",325400,528000
+65th,High Crag (Buttermere),745,2444,NY180139,OL4,"89, 90",Western Fells,"Sim, Hew, N, W, B, Sy, Fel",318000,513900
+66th,The Knott (High Street),739,2425,NY437126,OL5,90,Far Eastern Fells,"W, B, Sy, xN",343700,512600
+67th,Robinson,737,2418,NY201168,OL4,"89, 90",North Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",320100,516800
+68th,Seat Sandal,737,2417,NY344115,OL5,90,Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",334400,511500
+69th,Harrison Stickle,736,2415,NY281074,OL6,"89, 90",Central Fells,"Sim, Hew, N, W, B, Sy, Fel",328100,507400
+70th,Sergeant Man,736,2415,NY286088,OL6,"89, 90",Central Fells,"W, B, Sy, Fel, xN",328600,508800
+71st,Long Side,734,2408,NY248284,OL4,"89, 90",Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",324800,528400
+72nd,Kentmere Pike,731,2397,NY465077,OL7,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",346500,507700
+73rd,Hindscarth,727,2385,NY215165,OL4,"89, 90",North Western Fells,"Sim, Hew, N, W, B, Sy, Fel",321500,516500
+74th,Clough Head,726,2382,NY333225,OL5,90,Eastern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",333300,522500
+75th,Thunacar Knott,723,2372,NY279079,OL6,"89, 90",Central Fells,"N, sSim, W, B, Sy, Fel",327900,507900
+76th,Ullscarf,723,2372,NY291121,OL4,"89, 90",Central Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",329100,512100
+77th,Froswick,720,2362,NY435085,OL7,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",343500,508500
+78th,Birkhouse Moor,718,2354,NY363159,OL5,90,Eastern Fells,"N, sSim, W, B, Sy, Fel",336300,515900
+79th,Brandreth,715,2346,NY214119,OL4,"89, 90",Western Fells,"Sim, Hew, N, W, B, Sy, Fel",321400,511900
+80th,Lonscale Fell,715,2346,NY285271,OL4,"89, 90",Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",328500,527100
+81st,Branstree,712,2334,NY477100,"OL5, OL7",90,Far Eastern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",347700,510000
+82nd,Knott,710,2329,NY296329,OL4,"89, 90",Northern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",329600,532900
+83rd,Pike of Stickle,708,2324,NY273073,OL6,"89, 90",Central Fells,"Sim, Hew, N, W, B, Sy, Fel",327300,507300
+84th,Whiteside,707,2320,NY170219,OL4,"89, 90",North Western Fells,"N, W, B, Sy, Fel",317000,521900
+85th,Yoke,707,2320,NY437067,OL7,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",343700,506700
+86th,Pike of Blisco,705,2313,NY271042,OL6,"89, 90",Southern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",327100,504200
+87th,Bowscale Fell,702,2303,NY333305,"OL5, OL5",90,Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",333300,530500
+88th,Cold Pike,700,2297,NY262036,OL6,"89, 90",Southern Fells,"Sim, Hew, N, W, B, Sy, Fel",326200,503600
+89th,Pavey Ark,700,2297,NY284079,OL6,"89, 90",Central Fells,"N, W, B, Sy, Fel",328400,507900
+90th,Gray Crag,698,2290,NY427117,OL5,90,Far Eastern Fells,"W, B, Sy, Fel, xN",342700,511700
+91st,Caw Fell,697,2287,NY132109,"OL4, 303",89,Western Fells,"N, sSim, W, B, Sy, Fel",313200,510900
+92nd,Grey Knotts,697,2287,NY217125,OL4,"89, 90",Western Fells,"N, W, B, Sy, Fel",321700,512500
+93rd,Rest Dodd,696,2283,NY432136,OL5,90,Far Eastern Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",343200,513600
+94th,Seatallan,692,2270,NY140084,OL6,89,Western Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",314000,508400
+95th,Great Calva,691,2267,NY290311,OL4,"89, 90",Northern Fells,"Hu, Sim, Hew, N, sMa, W, B, Sy, Fel",329000,531100
+96th,Ullock Pike,690,2265,NY244287,OL4,"89, 90",Northern Fells,"W, B, Sy, Fel, xN",324400,528700
+97th,Bannerdale Crags,684,2244,NY335290,OL5,90,Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",333500,529000
+98th,Loft Crag,682,2237,NY277071,OL6,"89, 90",Central Fells,"N, sSim, W, B, Sy, Fel",327700,507100
+99th,Sheffield Pike,676,2218,NY369181,OL5,90,Eastern Fells,"Sim, Hew, N, sHu, W, B, Sy, Fel",336900,518100
+100th,Bakestall,674,2210,NY266307,"OL4, OL4","89, 90",Northern Fells,"W, B, Sy, Fel",326600,530700
+101st,Wether Hill,673,2206,NY455167,OL5,90,Far Eastern Fells,"W, B, Sy, Fel, xN",345500,516700
+102nd,Loadpot Hill,672,2205,NY456180,OL5,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",345600,518000
+103rd,Scar Crags,672,2205,NY208206,OL4,"89, 90",North Western Fells,"Sim, Hew, N, W, B, Sy, Fel",320800,520600
+104th,Tarn Crag (Sleddale),664,2178,NY488078,OL7,90,Far Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",348800,507800
+105th,Carrock Fell,662,2173,NY341336,OL5,90,Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",334100,533600
+106th,Whiteless Pike,660,2165,NY180189,OL4,"89, 90",North Western Fells,"Sim, Hew, N, W, B, Sy, Fel",318000,518900
+107th,High Pike (Caldbeck),658,2159,NY318350,OL5,90,Northern Fells,"Sim, Hew, N, W, B, Sy, Fel",331800,535000
+108th,Place Fell,657,2156,NY405169,OL5,90,Far Eastern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",340500,516900
+109th,High Pike (Scandale),656,2152,NY374088,OL7,90,Eastern Fells,"W, B, Sy, Fel",337400,508800
+110th,Selside Pike,655,2149,NY490111,OL5,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",349000,511100
+111th,Middle Dodd,654,2146,NY397095,"OL5, OL7",90,Eastern Fells,"W, B, Sy, Fel",339700,509500
+112th,Harter Fell (Eskdale),653,2143,SD218997,OL6,96,Southern Fells,"Ma, Sim, Hew, N, W, B, Sy, Fel",321800,499700
+113th,High Spy,653,2143,NY234162,OL4,"89, 90",North Western Fells,"Hu, Sim, Hew, N, sMa, W, B, Sy, Fel",323400,516200
+114th,Great Sca Fell,651,2136,NY291339,OL4,"89, 90",Northern Fells,"W, B, Sy, Fel, xN",329100,533900
+115th,Rossett Pike,651,2136,NY249075,OL6,"89, 90",Southern Fells,"Sim, Hew, N, W, B, Sy, Fel",324900,507500
+116th,Fleetwith Pike,649,2129,NY205141,OL4,"89, 90",Western Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",320500,514100
+117th,Base Brown,646,2119,NY225114,OL4,"89, 90",Western Fells,"Sim, Hew, N, W, B, Sy, Fel",322500,511400
+118th,Grey Crag (Sleddale Fell),638,2093,NY497072,OL7,90,Far Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",349700,507200
+119th,Causey Pike,637,2090,NY218208,OL4,"89, 90",North Western Fells,"Sim, Hew, N, W, B, Sy, Fel",321800,520800
+120th,Little Hart Crag,637,2090,NY387100,"OL5, OL7",90,Eastern Fells,"Sim, Hew, N, W, B, Sy, Fel",338700,510000
+121st,Starling Dodd,633,2077,NY142157,OL4,89,Western Fells,"Sim, Hew, N, W, B, Sy, Fel",314200,515700
+122nd,Mungrisdale Common,632,2073,NY311292,OL5,90,Northern Fells,"W, Sy",331100,529200
+123rd,Yewbarrow,629,2063,NY173084,OL6,"89, 90",Western Fells,"Hu, Sim, Hew, N, sMa, W, B, Sy, Fel",317300,508400
+124th,Birks,624,2047,NY380143,OL5,90,Eastern Fells,"N, sSim, W, B, Sy, Fel",338000,514300
+125th,Hartsop Dodd,619,2031,NY411118,OL5,90,Far Eastern Fells,"N, sSim, W, B, Sy, Fel",341100,511800
+126th,Great Borne,616,2021,NY123163,"OL4, 303",89,Western Fells,"Hu, Sim, Hew, N, W, B, Sy, Fel",312300,516300
+127th,Heron Pike (Rydal),612,2008,NY355083,OL7,90,Eastern Fells,"N, sSim, W, B, Sy",335500,508300
+128th,High Seat,609,1998,NY287180,OL4,"89, 90",Central Fells,"Hu, Sim, Dew, W, B, Sy, Fel",328700,518000
+129th,Illgill Head,609,1997,NY168049,OL6,89,Southern Fells,"Ma, Sim, Dew, W, B, Sy, Fel",316800,504900
+130th,Seathwaite Fell,601,1972,NY229101,"OL4, OL6","89, 90",Southern Fells,"W, B, Sy, Fel",322900,510100
+131st,Haystacks (Buttermere),597,1959,NY193131,OL4,"89, 90",Western Fells,"5, Dew, W, B, Sy, Fel",319300,513100
+132nd,Bleaberry Fell,590,1936,NY285195,OL4,"89, 90",Central Fells,"5, Dew, W, B, Sy, Fel",328500,519500
+133rd,Shipman Knotts,587,1926,NY472062,OL7,90,Far Eastern Fells,"W, B, Sy, Fel",347200,506200
+134th,Hartsop Above How,586,1923,NY383120,OL5,90,Eastern Fells,"s5, W, B, Sy, Fel",338300,512000
+135th,Brae Fell,586,1923,NY288351,OL4,"89, 90",Northern Fells,"W, B, Sy, Fel",328800,535100
+136th,Middle Fell,582,1909,NY150072,OL6,89,Western Fells,"Hu, 5, Dew, W, B, Sy, Fel",315000,507200
+137th,Ard Crags,581,1906,NY206197,OL4,"89, 90",North Western Fells,"Hu, 5, Dew, W, B, Sy, Fel",320600,519700
+138th,The Nab,576,1890,NY434151,OL5,90,Far Eastern Fells,"5, Dew, W, B, Sy",343400,515100
+139th,Maiden Moor,575,1886,NY236181,OL4,"89, 90",North Western Fells,"W, B, Sy, Fel",323600,518100
+140th,Blake Fell,573,1880,NY110196,"OL4, 303",89,Western Fells,"Ma, 5, Dew, W, B, Sy, Fel",311000,519600
+141st,Sergeant’s Crag,571,1873,NY273113,OL4,"89, 90",Central Fells,"5, Dew, W, B, Sy, Fel",327300,511300
+142nd,Outerside,568,1864,NY211214,OL4,"89, 90",North Western Fells,"5, Dew, W, B, Sy, Fel",321100,521400
+143rd,Angletarn Pikes,567,1860,NY413148,OL5,90,Far Eastern Fells,"5, Dew, W, B, Sy, Fel",341300,514800
+144th,Brock Crags,561,1841,NY416136,OL5,90,Far Eastern Fells,"W, B, Sy, Fel",341600,513600
+145th,Knott Rigg,556,1824,NY197188,OL4,"89, 90",North Western Fells,"5, Dew, W, B, Sy, Fel",319700,518800
+146th,Steel Fell,553,1814,NY319111,OL5,90,Central Fells,"5, Dew, W, B, Sy, Fel",331900,511100
+147th,Lord’s Seat,552,1811,NY204265,OL4,"89, 90",North Western Fells,"Ma, 5, Dew, W, B, Sy, Fel",320400,526500
+148th,Rosthwaite Fell (Bessyboot),551,1808,NY258124,OL4,"89, 90",Southern Fells,"5, Dew, W, B, Sy, Fel",325800,512400
+149th,Meal Fell,549,1802,NY283337,OL4,"89, 90",Northern Fells,"Dew, W, B, Sy, Fel, s5",328300,533700
+150th,Hard Knott,549,1801,NY231023,OL6,"89, 90",Southern Fells,"Ma, 5, Dew, W, B, Sy, Fel",323100,502300
+151st,Tarn Crag (Easedale),549,1801,NY303093,"OL4, OL5, OL6, OL7",90,Central Fells,"W, B, Sy, Fel",330300,509300
+152nd,Blea Rigg,541,1775,NY301078,"OL6, OL7",90,Central Fells,"W, B, Sy, Fel",330100,507800
+153rd,Lank Rigg,541,1775,NY091119,"OL4, 303",89,Western Fells,"Hu, 5, Dew, W, B, Sy, Fel",309100,511900
+154th,Calf Crag,537,1762,NY301104,"OL4, OL5, OL6, OL7",90,Central Fells,"5, Dew, W, B, Sy, Fel",330100,510400
+155th,Great Mell Fell,537,1762,NY396253,OL5,90,Eastern Fells,"Ma, 5, Dew, W, B, Sy, Fel",339600,525300
+156th,Whin Rigg (Wasdale),537,1762,NY151035,OL6,89,Southern Fells,"5, Dew, W, B, Sy, Fel",315100,503500
+157th,Arthur’s Pike,533,1749,NY460206,OL5,90,Far Eastern Fells,"W, B, Sy, Fel",346000,520600
+158th,Great Cockup,526,1726,NY273333,OL4,"89, 90",Northern Fells,"5, Dew, sHu, W, B, Sy, Fel",327300,533300
+159th,Eagle Crag,525,1722,NY275121,OL4,"89, 90",Central Fells,"s5, W, B, Sy, Fel",327500,512100
+160th,Gavel Fell,524,1720,NY116185,"OL4, 303",89,Western Fells,"5, Dew, W, B, Sy, Fel",311600,518500
+161st,Bonscale Pike,524,1719,NY453200,OL5,90,Far Eastern Fells,"W, B, Sy, Fel",345300,520000
+162nd,Crag Fell,523,1716,NY097143,"OL4, 303",89,Western Fells,"Hu, 5, Dew, W, B, Sy, Fel",309700,514300
+163rd,Souther Fell,522,1713,NY354291,OL5,90,Northern Fells,"5, Dew, W, B, Sy, Fel",335400,529100
+164th,High Hartsop Dodd,519,1703,NY393107,"OL5, OL7",90,Eastern Fells,"W, B, Sy, Fel",339300,510700
+165th,Whinlatter,517,1696,NY191251,OL4,"89, 90",North Western Fells,"W, B, Sy, Fel",319100,525100
+166th,Sallows,516,1693,NY436039,OL7,90,Far Eastern Fells,"5, Dew, W, B, Sy, Fel",343600,503900
+167th,High Tove,515,1690,NY289165,OL4,"89, 90",Central Fells,"W, B, Sy, Fel",328900,516500
+168th,Mellbreak (South Top),512,1680,NY148186,OL4,89,Western Fells,"Ma, 5, Dew, W, B, Sy, Fel",314800,518600
+169th,Broom Fell,510,1674,NY195270,OL4,"89, 90",North Western Fells,"s5, W, B, Sy, Fel",319500,527000
+170th,Beda Fell (Beda Head),509,1670,NY428171,OL5,90,Far Eastern Fells,"5, Dew, W, B, Sy, Fel",342800,517100
+171st,Low Pike,508,1667,NY373078,OL7,90,Eastern Fells,"W, B, Sy, Fel",337300,507800
+172nd,Hen Comb,506,1661,NY132181,"OL4, 303",89,Western Fells,"Hu, 5, Dew, W, B, Sy, Fel",313200,518100
+173rd,Little Mell Fell,505,1657,NY423240,OL5,90,Eastern Fells,"Ma, 5, Dew, W, B, Sy, Fel",342300,524000
+174th,Stone Arthur,504,1654,NY347092,"OL5, OL7",90,Eastern Fells,"W, B, Sy, Fel",334700,509200
+175th,Dodd (Skiddaw),502,1647,NY244273,OL4,"89, 90",Northern Fells,"Hu, 5, Dew, W, B, Sy, Fel",324400,527300
+176th,Green Crag,489,1603,SD200982,OL6,96,Southern Fells,"Hu, 4, sMa, W, B, Sy, Fel",320000,498200
+177th,Grike,488,1601,NY084140,"OL4, 303",89,Western Fells,"4, W, B, Sy, Fel",308400,514000
+178th,Baystones (Wansfell),487,1597,NY403051,OL7,90,Far Eastern Fells,"Hu, 4, sMa, W, Fel",340300,505100
+179th,Longlands Fell,483,1585,NY275354,OL4,"89, 90",Northern Fells,"4, W, B, Sy, Fel",327500,535400
+180th,Sour Howes,483,1585,NY427032,OL7,90,Far Eastern Fells,"4, W, B, Sy",342700,503200
+181st,Gowbarrow Fell,481,1579,NY407218,OL5,90,Eastern Fells,"W, B, Sy, Fel",340700,521800
+182nd,Armboth Fell,475,1558,NY295157,OL4,"89, 90",Central Fells,W,329500,515700
+183rd,Burnbank Fell,475,1558,NY110209,"OL4, 303",89,Western Fells,"W, B, Sy",311000,520900
+184th,Lingmoor Fell,470,1542,NY302046,"OL6, OL7",90,Southern Fells,"Ma, 4, W, B, Sy, Fel",330200,504600
+185th,Barf,469,1539,NY214267,OL4,"89, 90",North Western Fells,"4, W, B, Sy, Fel",321400,526700
+186th,Raven Crag,461,1512,NY303187,"OL4, OL5",90,Central Fells,"4, W, B, Sy, Fel",330300,518700
+187th,Barrow,455,1493,NY227218,OL4,"89, 90",North Western Fells,"4, W, B, Sy, Fel",322700,521800
+188th,Cat Bells (Catbells),451,1480,NY244198,OL4,"89, 90",North Western Fells,"4, W, B, Sy, Fel",324400,519800
+189th,Graystones,450,1478,NY176266,OL4,"89, 90",North Western Fells,W,317600,526600
+190th,Nab Scar,450,1476,NY355072,OL7,90,Eastern Fells,"W, B, Sy, Fel",335500,507200
+191st,Great Crag (Stonethwaite),449,1473,NY270146,OL4,"89, 90",Central Fells,"4, W, B, Sy, Fel",327000,514600
+192nd,Binsey,447,1467,NY225355,OL4,"89, 90",Northern Fells,"Ma, 4, W, B, Sy, Fel",322500,535500
+193rd,Glenridding Dodd,442,1450,NY380175,OL5,90,Eastern Fells,"4, W, B, Sy, Fel",338000,517500
+194th,Arnison Crag,433,1421,NY393149,OL5,90,Eastern Fells,"4, W, B, Sy, Fel",339300,514900
+195th,Steel Knotts (Pikeawassa),432,1417,NY440181,OL5,90,Far Eastern Fells,"4, W, B, Sy, Fel",344000,518100
+196th,Buckbarrow,423,1388,NY135061,"OL6, 303",89,Western Fells,"W, B, Sy, Fel",313500,506100
+197th,Low Fell,423,1388,NY137226,"OL4, 303",89,Western Fells,"Ma, 4, W, B, Sy, Fel",313700,522600
+198th,Gibson Knott,420,1378,NY316100,"OL5, OL7",90,Central Fells,"W, B, Sy, Fel",331600,510000
+199th,Grange Fell (Brund Fell),417,1369,NY264162,OL4,"89, 90",Central Fells,"4, W, B, Sy, Fel",326400,516200
+200th,Fellbarrow (Mosser Fell),416,1365,NY132242,"OL4, 303",89,Western Fells,"4, W, B, Sy, Fel",313200,524200
+201st,Helm Crag,405,1329,NY326093,"OL5, OL7",90,Central Fells,"4, W, B, Sy, Fel",332600,509300
+202nd,Silver How,394,1292,NY324066,OL7,90,Central Fells,"W, B, Sy, Fel",332400,506600
+203rd,Hallin Fell,388,1273,NY433198,OL5,90,Far Eastern Fells,"Ma, 3, W, B, Sy, Fel",343300,519800
+204th,Walla Crag,379,1243,NY276212,OL4,"89, 90",Central Fells,"W, B, Sy, Fel",327600,521200
+205th,Ling Fell,374,1227,NY179285,OL4,"89, 90",North Western Fells,"3, sHu, W, B, Sy, Fel",317900,528500
+206th,Latrigg,369,1211,NY279247,OL4,"89, 90",Northern Fells,"3, W, B, Sy, Fel",327900,524700
+207th,Troutbeck Tongue,364,1194,NY422064,OL7,90,Far Eastern Fells,"3, W, B, Sy, Fel",342200,506400
+208th,Sale Fell,359,1178,NY194296,OL4,"89, 90",North Western Fells,"Hu, 3, W, B, Sy, Fel",319400,529600
+209th,High Rigg (Naddle Fell),355,1165,NY308219,"OL4, OL5",90,Central Fells,"Ma, 3, W, B, Sy, Fel",330800,521900
+210th,Rannerdale Knotts,355,1165,NY167182,OL4,89,North Western Fells,"3, W, B, Sy, Fel",316700,518200
+211th,Loughrigg Fell,335,1099,NY346051,OL7,90,Central Fells,"Ma, 3, W, B, Sy, Fel",334600,505100
+212th,Black Fell,323,1060,NY340015,OL7,90,Southern Fells,"Hu, 3, W, B, Sy, Fel",334000,501500
+213th,Holme Fell,316,1037,NY315006,OL7,90,Southern Fells,"Ma, 3, W, B, Sy, Fel",331500,500600
+214th,Castle Crag,290,951,NY249159,OL4,"89, 90",North Western Fells,"2, W, Sy, Fel",324900,515900

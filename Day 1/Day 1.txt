@@ -1,0 +1,16 @@
+#30DayMapChallenge
+Day 1: Points
+
+Data Source:
+1. Lake District boundaries: https://geoportal.statistics.gov.uk/datasets/ons::national-parks-december-2020-boundaries-gb-bfc/explore?location=55.167958%2C-2.950000%2C6.27
+2. List and coordinates of Wainwright: https://www.paulbeal.com/list-of-wainwrights/
+
+Steps:
+1. Use the SRTM Downloader plugin to download elevation data from Latitude: 54° to 55° and Longitude: -4° to -2°
+2. Duplicate the SRTM raster layer
+3. For the top layer, set the Render type to Singleband pseudocolour and choose a suitable colour ramp. Set Blending mode to multiply.
+4. For the bottom layer, set the Render type to Hillshade. Set Blending mode to multiply.
+5. Adjust the brightness, contrast and gamma accordingly. Basemaps can be added using QuickMapServices
+6. Load the point dataset of Wainwright and apply Firefly symbology (downloaded online)
+7. Add Lake District Boundaries
+8. Export 2D map and legend to Canva/Illustrator for further designing
