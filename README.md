@@ -15,7 +15,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 For Day 1’s theme on Points, I used a firefly symbology where each glowing dot marks one of the 214 Wainwrights: the iconic fells of the Lake District immortalized in Alfred Wainwright’s Pictorial Guides to the Lakeland Fells (1955–1966). A constellation of summits, lighting up the landscape.
 
-![Day 1](Day%201/Designs/Day%201.png)
+![Day 1](Day%201/Day%201_dark.png)
 
 Data Source: [Lake District Boundaries](https://geoportal.statistics.gov.uk/datasets/ons::national-parks-december-2020-boundaries-gb-bfc/explore?location=55.167958%2C-2.950000%2C6.27
 ), [List and Coordinates of the Wainwrights](https://www.paulbeal.com/list-of-wainwrights/)
