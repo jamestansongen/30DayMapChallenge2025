@@ -15,6 +15,9 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 What started as a simple plan to plot satellite orbits on a static map spiraled into an interactive 3D visualisation where you can toggle different satellites and rotate around the Earth to explore their paths. I reused the code to showcase the orbital paths of both NOAA’s polar-orbiting satellites and GOES geostationary satellites, highlighting the contrast in how they observe our planet. 
 
+![Day 2_GOES](Day%202/Day%202_GOES.png)
+![Day 2_NOAA](Day%202/Day%202_NOAA.png)
+
 Explore the interactive map here: [GOES](https://jamestansongen.github.io/goes-geostationary-satellite-orbits/), [NOAA](https://jamestansongen.github.io/polar-orbiting-noaa-satellites/) 
 
 Data Source: [Satellite Orbits](https://celestrak.org/NORAD/elements/), [Global Relief Model](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/)
