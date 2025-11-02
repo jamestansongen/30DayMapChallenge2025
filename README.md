@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 2: Lines
+
+What started as a simple plan to plot satellite orbits on a static map spiraled into an interactive 3D visualisation where you can toggle different satellites and rotate around the Earth to explore their paths. I reused the code to showcase the orbital paths of both NOAA’s polar-orbiting satellites and GOES geostationary satellites, highlighting the contrast in how they observe our planet. 
+
+Explore the interactive map here: [GOES](https://jamestansongen.github.io/goes-geostationary-satellite-orbits/), [NOAA](https://jamestansongen.github.io/polar-orbiting-noaa-satellites/) 
+
+Data Source: [Satellite Orbits](https://celestrak.org/NORAD/elements/), [Global Relief Model](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/)
+
 ### Day 1: Points
 
 For Day 1’s theme on Points, I used a firefly symbology where each glowing dot marks one of the 214 Wainwrights: the iconic fells of the Lake District immortalized in Alfred Wainwright’s Pictorial Guides to the Lakeland Fells (1955–1966). A constellation of summits, lighting up the landscape.
