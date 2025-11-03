@@ -11,6 +11,16 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 3: Polygons
+
+For last year’s #30DayMapChallenge, under the theme of polygons, I created contour polygons to visualise the elevation of the Isle of Skye. This year, I expanded on that concept by incorporating bathymetry. My focus was Crater Lake, where I developed a dual-layer terrain visualisation: one layer features elevation contours generated from the USGS 1/3 arc-second Digital Elevation Model, while the other showcases bathymetric data sourced from the USGS, the University of New Hampshire’s Center for Coastal and Ocean Mapping, and the National Park Service.
+
+Since the bathymetry dataset dates back to 2000, I performed georeferencing to ensure accurate alignment between the elevation and depth layers. To enhance visual depth and dimensionality, I applied a subtle drop shadow effect, helping to accentuate the terrain’s contours and underwater relief.
+
+![Day_3](Day%203/Day%203_edited_labels.png)
+
+Data Source: [Bathymetry survey of Crater Lake 2020](https://oe.oregonexplorer.info/craterlake/bathymetry.html) ; [USGS 1/3 arc-second Digital Elevation Model](https://portal.opentopography.org/raster?opentopoID=OTNED.012021.4269.1)
+
 ### Day 2: Lines
 
 What started as a simple plan to plot satellite orbits on a static map spiraled into an interactive 3D visualisation where you can toggle different satellites and rotate around the Earth to explore their paths. I reused the code to showcase the orbital paths of both NOAA’s polar-orbiting satellites and GOES geostationary satellites, highlighting the contrast in how they observe our planet. 
