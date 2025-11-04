@@ -1,0 +1,19 @@
+#30DayMapChallenge
+Day 4: Data: My Data
+
+Data Source:
+Data: Gifts received from a Pokémon Go trainer (consent obtained)
+
+Steps:
+1. Load point dataset and basemap (e.g. Carto Dark Matter). Set symbology to Heatmap. The following colour gradient was used. The 0% mark needs to have 0% opacity so you will be able to see the basemap. 
+
+Value (%)	Color		Hex Code	Opacity
+0		Deep Blue	#0D1B2A		0%
+15		Cyan Glow	#00FFFF		20%
+40		Magenta Pop	#FF00FF		60%
+70		Lava Orange	#FF6F00		80%
+100		Neon Yellow	#FFFF00		100%
+
+2. Set Blending Mode for Layer to Hard Light.
+
+3. Consider experimentation with different colour schemes and basemaps.
