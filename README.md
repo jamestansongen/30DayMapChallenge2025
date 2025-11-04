@@ -17,7 +17,7 @@ I have been playing Pokémon Go since its launch in 2016, and one feature I've a
 
 A few years ago, with the consent of several friends, I started recording the locations of gifts they sent me. My goal was to analyse the data and see if I could identify behavioral patterns. Although I never got around to mapping it then, I decided to use that dataset for today's challenge where I did a hotspot analysis for one friend. The results highlighted their home area and the train station they likely use for commuting. I chose this dataset in part to protect my friend's anonymity since they live in a densely populated area (compared to some of the other data), thus making it harder to single out.
 
-This experience made me reflect on how much everyday data we generate and how it is ultimately used. For example, [Niantic](https://arstechnica.com/ai/2024/11/niantic-uses-pokemon-go-player-data-to-build-ai-navigation-system/) has leveraged Pokémon Go player data to build an AI-powered navigation system . It is a reminder of how our interactions with various apps aren't just fleeting moments but harnessed for various purposes (although despite that all, I am still an active player).
+This experience made me reflect on how much everyday data we generate and how it is ultimately used. For example, [Niantic](https://nianticlabs.com/news/largegeospatialmodel?hl=en) has leveraged Pokémon Go player data to build an AI-powered navigation system . It is a reminder of how our interactions with various apps aren't just fleeting moments but harnessed for various purposes (although despite that all, I am still an active player).
 
 ![Day 4](Day%204/Day%204_v2.png)
 
