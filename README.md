@@ -11,6 +11,18 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 4: Data: My Data
+
+I have been playing Pokémon Go since its launch in 2016, and one feature I've always found fascinating is the gift system. Gifts are collected from PokéStops and sent to friends, each tagged with its physical location. That got me thinking: if you receive enough gifts from someone, could you infer their daily patterns like where they live or work?
+
+A few years ago, with the consent of several friends, I started recording the locations of gifts they sent me. My goal was to analyse the data and see if I could identify behavioral patterns. Although I never got around to mapping it then, I decided to use that dataset for today's challenge where I did a hotspot analysis for one friend. The results highlighted their home area and the train station they likely use for commuting. I chose this dataset in part to protect my friend's anonymity since they live in a densely populated area (compared to some of the other data), thus making it harder to single out.
+
+This experience made me reflect on how much everyday data we generate and how it is ultimately used. For example, Niantic has leveraged Pokémon Go player data to build an AI-powered navigation system (https://arstechnica.com/ai/2024/11/niantic-uses-pokemon-go-player-data-to-build-ai-navigation-system/). It is a reminder of how our interactions with various apps aren't just fleeting moments but harnessed for various purposes (although despite that all, I am still an active player).
+
+![Day 4](Day%204/Day%204_v2.png)
+
+Data Source: Author's Own
+
 ### Day 3: Polygons
 
 For last year’s #30DayMapChallenge, under the theme of polygons, I created contour polygons to visualise the elevation of the Isle of Skye. This year, I expanded on that concept by incorporating bathymetry. My focus was Crater Lake, where I developed a dual-layer terrain visualisation: one layer features elevation contours generated from the USGS 1/3 arc-second Digital Elevation Model, while the other showcases bathymetric data sourced from the USGS, the University of New Hampshire’s Center for Coastal and Ocean Mapping, and the National Park Service.
