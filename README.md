@@ -11,6 +11,21 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 5: Earth
+
+For this theme, I explored the use of Synthetic Aperture Radar (SAR) imagery to analyse earthquake-induced ground deformation, focusing on the January 2025 Taiwanese Earthquake as the study area. Throughout the process, I gained valuable insights such as the distinction between SAR GRD and SLC products. While SLC data is essential for generating interferograms, it is unfortunately not available on Google Earth Engine.
+
+Creating an interferogram proved to be a technically demanding task, involving several preprocessing steps such as orbit correction, image co-registration, and radiometric calibration. Despite these challenges, I successfully produced an interferogram that visually captured ground deformation, with concentric fringes tightening near the epicenter.
+
+I attempted to export the product for SNAPHU processing to quantify displacement, but repeatedly encountered the error: "Unexpected or abnormal exit of child process." This prevented me from completing the phase unwrapping and deriving quantitative displacement data.
+
+Nonetheless, this exercise significantly deepened my appreciation for the complexity and technical rigor involved in seismological research. I look forward to resolving the SNAPHU issues in future attempts and continuing to build on this foundation.
+
+![Day 5](Day%205/Day%205_edited.png)
+
+Data Source: [Copernicus](https://browser.dataspace.copernicus.eu/) - S1A_IW_SLC__1SDV_20250111T215254_20250111T215321_057402_0710E0_9355 / S1A_IW_SLC__1SDV_20250123T215253_20250123T215321_057577_0717D2_9383
+Tutorial Source: [Tutorial For Exercise 6: InSAR for detect, map and monitor natural hazards](https://share.google/Lr4oas3KMmPbU8MLM) ; [Create an Interferogram Using ESA's Sentinel-1 Toolbox](https://www.earthdata.nasa.gov/learn/data-recipes/create-interferogram-using-esas-sentinel-1-toolbox)
+
 ### Day 4: Data: My Data
 
 I have been playing Pokémon Go since its launch in 2016, and one feature I have found fascinating is the gift system. Gifts are collected from PokéStops and sent to friends, each tagged with its physical location. That got me thinking: if you receive enough gifts from someone, could you infer their daily patterns like where they live or work?
@@ -43,6 +58,7 @@ What started as a simple plan to plot satellite orbits on a static map spiraled 
 Explore the interactive map here: [NOAA](https://jamestansongen.github.io/polar-orbiting-noaa-satellites/) ; [GOES](https://jamestansongen.github.io/goes-geostationary-satellite-orbits/)
 
 Data Source: [Satellite Orbits](https://celestrak.org/NORAD/elements/), [Global Relief Model](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/ice_surface/grid_registered/netcdf/)
+Tutorial Source: [Create “Interactive Globe + Earthquake Plot in Python](https://plainenglish.io/blog/plot-satellites-real-time-orbits-with-python-s-matplotlib) ; [Plot Satellites’ Real-time Orbits with Python’s Matplotlib](https://plainenglish.io/blog/plot-satellites-real-time-orbits-with-python-s-matplotlib)
 
 ### Day 1: Points
 
