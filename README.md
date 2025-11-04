@@ -13,7 +13,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 ### Day 4: Data: My Data
 
-I have been playing Pokémon Go since its launch in 2016, and one feature I've always found fascinating is the gift system. Gifts are collected from PokéStops and sent to friends, each tagged with its physical location. That got me thinking: if you receive enough gifts from someone, could you infer their daily patterns like where they live or work?
+I have been playing Pokémon Go since its launch in 2016, and one feature I have found fascinating is the gift system. Gifts are collected from PokéStops and sent to friends, each tagged with its physical location. That got me thinking: if you receive enough gifts from someone, could you infer their daily patterns like where they live or work?
 
 A few years ago, with the consent of several friends, I started recording the locations of gifts they sent me. My goal was to analyse the data and see if I could identify behavioral patterns. Although I never got around to mapping it then, I decided to use that dataset for today's challenge where I did a hotspot analysis for one friend. The results highlighted their home area and the train station they likely use for commuting. I chose this dataset in part to protect my friend's anonymity since they live in a densely populated area (compared to some of the other data), thus making it harder to single out.
 
