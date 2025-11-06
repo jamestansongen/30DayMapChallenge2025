@@ -15,7 +15,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 To tackle this prompt, I chose to emphasise the temporal dimension rather than relying on a static 3D map. I extracted Landsat satellite imagery of the Ucayali River in Peru from 1984 to 2021, applying both natural color and terrain color composites to enhance the visualisation of river changes over time. To complement this, I incorporated the JRC Yearly Water Classification History dataset, offering an additional perspective on hydrological dynamics.
 
-The final timelapse covers the period from 1984 to 2021, aligning with the latest available data from the JRC dataset. Certain years were excluded due to excessive cloud cover or unresolved scan line errors in the Landsat imagery. After processing the usable frames, I compiled the individual GIFs into a cohesive collage to present the Ucayali river's evolution (I think if more images in the future or other areas are chosen, an oxbow lake formation can be captured).
+The final timelapse covers the period from 1984 to 2021, aligning with the latest available data from the JRC dataset. Certain years were excluded due to excessive cloud cover or unresolved scan line errors in the Landsat imagery. After processing the usable frames, I compiled the individual GIFs into a collage to present the Ucayali river's evolution (I think if more images in the future or other areas are chosen, an oxbow lake formation can be captured).
 
 ![Day 6](Day%206/Day%206.gif)
 
