@@ -11,6 +11,18 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 6: Dimensions
+
+To tackle this prompt, I chose to emphasise the temporal dimension rather than relying on a static 3D map. I extracted Landsat satellite imagery of the Ucayali River in Peru from 1984 to 2021, applying both natural color and terrain color composites to enhance the visualisation of river changes over time. To complement this, I incorporated the JRC Yearly Water Classification History dataset, offering an additional perspective on hydrological dynamics.
+
+The final timelapse covers the period from 1984 to 2021, aligning with the latest available data from the JRC dataset. Certain years were excluded due to excessive cloud cover or unresolved scan line errors in the Landsat imagery. After processing the usable frames, I compiled the individual GIFs into a cohesive collage to present the Ucayali river's evolution (was hoping to see an oxbow lake formation happen in the images :()
+
+![Day 6](Day%206/Day%206.gif)
+
+Data Source:[JRC Yearly Water Classification History, v1.4](https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_YearlyHistory); Landsat 5, 7, 8, 9
+
+Tutorial Source: [Time series on Landsat data with Google Earth Engine](https://www.acgeospatial.co.uk/time-series-on-landsat-data-gee/) ; [Visualizing changing landscapes with Google Earth Engine](https://medium.com/google-earth/visualizing-changing-landscapes-with-google-earth-engine-b2d502dc02a8)
+
 ### Day 5: Earth
 
 For this theme, I explored the use of Synthetic Aperture Radar (SAR) imagery to analyse earthquake-induced ground deformation, focusing on the January 2025 Taiwanese Earthquake as the study area. Throughout the process, I gained valuable insights such as the distinction between SAR GRD and SLC products. While SLC data is essential for generating interferograms, it is unfortunately not available on Google Earth Engine.
