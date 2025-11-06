@@ -1,0 +1,193 @@
+// Landsat Timelapse Tutorial Source: https://www.acgeospatial.co.uk/time-series-on-landsat-data-gee/
+// JRC Timelapse Tutorial Source: https://medium.com/google-earth/visualizing-changing-landscapes-with-google-earth-engine-b2d502dc02a8
+
+//1.  Define Area of Interest
+var aoi = ee.Geometry.Rectangle([-74.14673236969024, -10.324513588222702, -73.92563251617462, -9.910822420521262]);
+Map.centerObject(aoi, 10);
+Map.addLayer(aoi, {color: 'red'}, 'AOI');
+
+//2. Landsat Data
+
+// Landsat 5 Collection 2 Surface Reflectance
+var L5coll = ee.ImageCollection('LANDSAT/LT05/C02/T1_L2')
+  .filter(ee.Filter.lt('CLOUD_COVER', 25))
+  .filterBounds(aoi)
+  .map(function(image) {
+    var optical = image.select('SR_B.*').multiply(0.0000275).add(-0.2);
+    return optical.select(['SR_B3', 'SR_B2', 'SR_B1'], ['B3', 'B2', 'B1'])
+      .copyProperties(image, ['system:time_start', 'CLOUD_COVER']);
+  });
+
+// Landsat 7 Collection 2 Surface Reflectance
+var L7coll = ee.ImageCollection('LANDSAT/LE07/C02/T1_L2')
+  .filter(ee.Filter.lt('CLOUD_COVER', 25))
+  .filterBounds(aoi)
+  .map(function(image) {
+    var optical = image.select('SR_B.*').multiply(0.0000275).add(-0.2);
+    return optical.select(['SR_B3', 'SR_B2', 'SR_B1'], ['B3', 'B2', 'B1'])
+      .copyProperties(image, ['system:time_start', 'CLOUD_COVER']);
+  })
+  .map(function(image) {
+    var filled = image.focal_mean(2, 'square', 'pixels', 1);
+    return filled.blend(image)
+      .copyProperties(image, ['system:time_start', 'CLOUD_COVER']);
+  });
+
+// Landsat 8 Collection 2 Surface Reflectance
+var L8coll = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
+  .filter(ee.Filter.lt('CLOUD_COVER', 5))
+  .filterBounds(aoi)
+  .map(function(image) {
+    var optical = image.select('SR_B.*').multiply(0.0000275).add(-0.2);
+    return optical.select(['SR_B4', 'SR_B3', 'SR_B2'], ['B3', 'B2', 'B1'])
+      .copyProperties(image, ['system:time_start', 'CLOUD_COVER']);
+  });
+
+// Landsat 9 Collection 2 Surface Reflectance
+var L9coll = ee.ImageCollection('LANDSAT/LC09/C02/T1_L2')
+  .filter(ee.Filter.lt('CLOUD_COVER', 5))
+  .filterBounds(aoi)
+  .map(function(image) {
+    var optical = image.select('SR_B.*').multiply(0.0000275).add(-0.2);
+    return optical.select(['SR_B4', 'SR_B3', 'SR_B2'], ['B3', 'B2', 'B1'])
+      .copyProperties(image, ['system:time_start', 'CLOUD_COVER']);
+  });
+
+// Merge all Landsat collections
+var collection_merge = L5coll.merge(L7coll).merge(L8coll).merge(L9coll);
+
+//3. JRC WATER DATA
+
+// Load the JRC annual water dataset
+var jrc = ee.ImageCollection('JRC/GSW1_4/YearlyHistory')
+            .filterBounds(aoi);
+
+// Process each year: permanent water only, despeckle, clip to AOI
+var annualWater = jrc.map(function(img) {
+  var year = ee.Date(img.get('system:time_start')).get('year');
+  var water = img.gte(2).selfMask();                     // permanent water
+  var despeckle = water.connectedPixelCount(15, true).gte(15);
+  return water.updateMask(despeckle)
+              .clip(aoi)
+              .set('year', year)
+              .set('system:time_start', img.get('system:time_start'));
+});
+
+//4. Create yearly composites
+
+// Match JRC time range (1984-2023)
+var years = ee.List.sequence(1984, 2023);
+
+// Landsat yearly composites
+var yearlyImages = ee.ImageCollection(years
+  .map(function(y) {
+    var start = ee.Date.fromYMD(y, 1, 1);
+    var end = start.advance(1, 'year');
+    var yearImages = collection_merge.filterDate(start, end);
+    var count = yearImages.size();
+    
+    return ee.Algorithms.If(
+      count.gt(0),
+      yearImages.median()
+        .clip(aoi)
+        .set('year', y)
+        .set('system:time_start', start.millis())
+        .set('image_count', count),
+      null
+    );
+  })
+  .removeAll([null]));
+
+//5. Visualisation Parameters
+
+var landsatVisParams = {bands: ['B3', 'B2', 'B1'], min: 0, max: 0.3};
+var waterVisParams = {
+  min: 0,
+  max: 1,
+  palette: ['ffffff','0D0887']  // white=background, blue=water
+};
+
+//6. Add layers to map for checking
+
+var yearsList = yearlyImages.aggregate_array('year');
+print('Years with data:', yearsList);
+
+// Add Landsat layers
+yearlyImages.evaluate(function(result) {
+  result.features.forEach(function(feature, index) {
+    var year = feature.properties.year;
+    var image = ee.Image(yearlyImages.filter(ee.Filter.eq('year', year)).first());
+    
+    // Only show the most recent year by default
+    var shown = (index === result.features.length - 1);
+    
+    Map.addLayer(image, landsatVisParams, 'Landsat ' + year, shown);
+  });
+});
+
+// Add water layers
+annualWater.evaluate(function(result) {
+  result.features.forEach(function(feature, index) {
+    var year = feature.properties.year;
+    var image = ee.Image(annualWater.filter(ee.Filter.eq('year', year)).first());
+    
+    // Only show the most recent year by default
+    var shown = (index === result.features.length - 1);
+    
+    Map.addLayer(image, waterVisParams, 'Water ' + year, shown);
+  });
+});
+
+//7. Export to Google Drive
+
+// Export Landsat images
+yearsList.evaluate(function(years) {
+  years.forEach(function(year) {
+    var image = yearlyImages.filter(ee.Filter.eq('year', year)).first();
+    
+    Export.image.toDrive({
+      image: image.visualize(landsatVisParams),
+      description: 'Landsat_' + year,
+      folder: 'Earth_Engine_Exports',
+      region: aoi,
+      scale: 30,
+      maxPixels: 1e9
+    });
+  });
+});
+
+// Export Water images (visualize first, then export)
+var waterYears = annualWater.aggregate_array('year');
+waterYears.evaluate(function(years) {
+  years.forEach(function(year) {
+    var image = annualWater.filter(ee.Filter.eq('year', year)).first();
+    
+    Export.image.toDrive({
+      image: image.visualize(waterVisParams),
+      description: 'Water_' + year,
+      folder: 'Earth_Engine_Exports',
+      region: aoi,
+      scale: 30,
+      maxPixels: 1e9
+    });
+  });
+});
+
+//8. Create animation thumbnail for preview
+
+var videoArgs = {
+  dimensions: 512,
+  region: aoi,
+  framesPerSecond: 2
+};
+
+var landsatAnim = ui.Thumbnail(yearlyImages.map(function(img) {
+  return img.visualize(landsatVisParams);
+}), videoArgs);
+
+var waterAnim = ui.Thumbnail(annualWater.map(function(img) {
+  return img.visualize(waterVisParams);
+}), videoArgs);
+
+print('Landsat Animation:', landsatAnim);
+print('Water Animation:', waterAnim);
