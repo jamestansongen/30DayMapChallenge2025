@@ -19,7 +19,7 @@ The final timelapse covers the period from 1984 to 2021, aligning with the lates
 
 ![Day 6](Day%206/Day%206.gif)
 
-Data Source:[JRC Yearly Water Classification History, v1.4](https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_YearlyHistory); Landsat 5, 7, 8, 9
+Data Source: [JRC Yearly Water Classification History, v1.4](https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_YearlyHistory); Landsat 5, 7, 8, 9
 
 Tutorial Source: [Time series on Landsat data with Google Earth Engine](https://www.acgeospatial.co.uk/time-series-on-landsat-data-gee/) ; [Visualizing changing landscapes with Google Earth Engine](https://medium.com/google-earth/visualizing-changing-landscapes-with-google-earth-engine-b2d502dc02a8)
 
