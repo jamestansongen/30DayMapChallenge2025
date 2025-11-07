@@ -13,6 +13,12 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 ### Day 7: Accessibility
 
+What makes Greggs so popular? Is it the irresistibly delicious sausage rolls and the wide assortment of baked goods? The wallet-friendly prices compared to other options? Or perhaps how incredibly accessible Greggs is across the UK.
+
+It has been a while since I dived into urban spatial science so this was a treat for me. Using network data from OpenStreetMap and the Cityseer library, I computed accessibility scores for Greggs locations. If you are near Liverpool Street or Leicester Square, there are numerous stores within a 1km network distance. Beyond raw store counts, I also calculated proximity-weighted scores, which highlighted areas like Kings Cross St Pancras where stores are tightly clustered together.
+
+This post is not sponsored by Greggs — but I wouldn’t say no to a box of sausage rolls delivered to Singapore.
+
 ![Day 7](Day%207/Day%207_new.png)
 
 Data Source: [Greggs Store](https://www.allinlondon.co.uk/directory/store-finders/757-greggs?page=1)
