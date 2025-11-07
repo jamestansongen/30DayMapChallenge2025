@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 7: Accessibility
+
+![Day 7](Day%207/Day%207_new.png)
+
+Data Source: [Greggs Store](https://www.allinlondon.co.uk/directory/store-finders/757-greggs?page=1)
+
+Useful References: [Cityseer Documentation](https://cityseer.benchmarkurbanism.com/intro) ; [Computing Accessibilities](https://norman-foster-institute.github.io/ua_part1/themes/3_access/amenities.html)
+
 ### Day 6: Dimensions
 
 To tackle this prompt, I chose to emphasise the temporal dimension rather than relying on a static 3D map. I extracted Landsat satellite imagery of the Ucayali River in Peru from 1984 to 2021, applying both natural color and terrain color composites to enhance the visualisation of river changes over time. To complement this, I incorporated the JRC Yearly Water Classification History dataset, offering an additional perspective on hydrological dynamics.
