@@ -1,0 +1,11 @@
+#30DayMapChallenge
+Day 8: Urban
+
+Data Source:
+1. https://www.streetdirectory.com/
+2. https://data.gov.sg/datasets/d_8d886e3a83934d7447acdf5bc6959999/view
+
+Methodology
+1. Filter out reference MRT station
+2. Georeference Street Directory image to OSM basemap
+3. Digitise linkways (and buildings if not using polygons from OSM or other sources)
