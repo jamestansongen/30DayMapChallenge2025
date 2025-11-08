@@ -11,6 +11,18 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 8: Urban
+
+Today's theme of urban coincides with World Urbanism Day. For this task, I explored how different buildings in Orchard (Singapore’s iconic shopping belt) are connected underground. Given our hot and humid climate, these subterranean linkways aren’t just convenient, they are essential.
+
+Creating this map made me reflect on how little attention we give to the underground when mapping cities. It was difficult to find comprehensive datasets that include basement levels, depth information, or underground connections. This map took extra time to piece together, as I had to comb through street directories and individual building floor plans to trace where these linkways exist and at which floors.
+
+There are several reasons why high-quality subterranean data is becoming increasingly important. As cities grow denser, we are building downward and land use planning must account for multiple depth layers. These underground connections also open up possibilities for 3D network analysis, helping us better understand accessibility and pedestrian flow beneath the surface.
+
+![Day 8](Day%208/Day%208_edited.png)
+
+Data Source:[Street Directory](https://www.streetdirectory.com/) ; [MRT Stations](https://data.gov.sg/datasets/d_8d886e3a83934d7447acdf5bc6959999/view) 
+
 ### Day 7: Accessibility
 
 What makes Greggs so popular? Is it the irresistibly delicious sausage rolls and the wide assortment of baked goods? The wallet-friendly prices compared to other options? Or perhaps how incredibly accessible Greggs is across the UK.
