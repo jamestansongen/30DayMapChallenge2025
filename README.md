@@ -11,6 +11,17 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 9: Analog
+
+Grateful for the occasional easy theme day so I can dedicate more time on more complex maps in the upcoming days. I couldn’t settle on one idea, so I explored a couple of analog approaches.
+🗺️ First up: a hand-drawn map where I reimagined GIS concepts and memes as geographic features. Think Null Island, Legend Lookout, Graveyard of .dbf, .shx, .prj (i.e. forgotten components of a Shapefile) and Digital Twin (Towers).
+🧲 Second: a map made from refrigerator magnets (although with some geographical inaccuracies on the placement). The left half generally features magnets from America while the right half from Europe from my time abroad.
+🏖️ Bonus idea I considered: heading to the beach to sculpt maps out of sand. Maybe next year!
+
+![Day 9](Day%209/Day%209a.jpg)
+
+![Day 9](Day%209/Day%209b.jpg)
+
 ### Day 8: Urban
 
 Today's theme of urban coincides with World Urbanism Day. For this task, I explored how different buildings in Orchard (Singapore’s iconic shopping belt) are connected underground. Given our hot and humid climate, these subterranean linkways aren’t just convenient, they are essential.
