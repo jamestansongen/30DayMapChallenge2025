@@ -19,7 +19,7 @@ Each frame represents one month, using the Monthly Averaged Reanalysis dataset (
 
 ![Day 10](Day%2010/Day%2010.gif)
 
-Data Source: (ERA5 monthly averaged data on single levels from 1940 to present)[https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview]
+Data Source: [ERA5 monthly averaged data on single levels from 1940 to present](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview)
 
 ### Day 9: Analog
 
