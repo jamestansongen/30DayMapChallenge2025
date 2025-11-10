@@ -17,9 +17,9 @@ I have been seeing so many mesmerizing wind and wave flow visualisations popping
 
 Each frame represents one month, using the Monthly Averaged Reanalysis dataset (i.e. the timestamps reflect months only, not specific dates or times). I am really pleased with how the results turned out. The visualisation beautifully highlights global wind circulation, and I aimed for a color palette reminiscent of Van Gogh’s Starry Night to give it a dreamy feel.
 
-Data Source: 
+![Day 10](Day%2010/Day%2010.gif)
 
-![Day 10](Day%2010/Day%2010.gif)[https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview]
+Data Source: (ERA5 monthly averaged data on single levels from 1940 to present)[https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview]
 
 ### Day 9: Analog
 
