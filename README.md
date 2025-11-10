@@ -11,6 +11,16 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 10: Air
+
+I have been seeing so many mesmerizing wind and wave flow visualisations popping up on LinkedIn lately, so I decided to create one myself for today's theme. I used ERA5 monthly averaged wind data to generate a GIF that captures how wind patterns evolve throughout the year.
+
+Each frame represents one month, using the Monthly Averaged Reanalysis dataset (i.e. the timestamps reflect months only, not specific dates or times). I am really pleased with how the results turned out. The visualisation beautifully highlights global wind circulation, and I aimed for a color palette reminiscent of Van Gogh’s Starry Night to give it a dreamy feel.
+
+Data Source: 
+
+![Day 10](Day%2010/Day%2010.gif)[https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means?tab=overview]
+
 ### Day 9: Analog
 
 Grateful for the occasional easy theme day so I can dedicate more time on more complex maps in the upcoming days. I couldn’t settle on one idea, so I explored a couple of analog approaches. \
