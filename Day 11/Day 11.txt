@@ -1,0 +1,8 @@
+#30DayMapChallenge
+Day 11: Minimal Map
+
+Data Source:
+1. Rivers: https://www.hydrosheds.org/products/hydrorivers
+
+Steps:
+1. Load the data. Set symbology to Categorised and select ORD_CLAS for rivers by Classical Stream Order or ORD_STRA for Strahler Stream Order. For the former, smaller numbers should be darker while for the latter larger numbers should be darker. 
