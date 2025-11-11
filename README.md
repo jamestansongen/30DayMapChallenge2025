@@ -11,6 +11,15 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 11: Minimal Maps
+
+Today's theme leans towards simplicity and the HydroSHEDS datasets are a perfect fit. By colouring the rivers according to Classical Stream Order, the map reveals the source of each river system. The result is a minimal yet striking visualisation that traces the outline of the continent while almost resembling the pulsing heart of the land itself. The theme is also a good reminder than sparse data or focusing on not overcrowding the map can create rich geographic stories.
+
+![Day 11](Day%2011/Day%2011_SA.png)
+
+Data Source: [HydroSHEDS](https://lnkd.in/em4Thd4P)
+
+
 ### Day 10: Air
 
 I have been seeing so many mesmerizing wind and wave flow visualisations popping up on LinkedIn lately, so I decided to create one myself for today's theme. I used ERA5 monthly averaged wind data to generate a GIF that captures how wind patterns evolve throughout the year.
