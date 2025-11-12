@@ -23,7 +23,7 @@ You can try out the simulation [here](https://deliverydroneunity.netlify.app/) (
 
 ![Day 12](Day%2012/Day%2012_compressed.mp4)
 
-Model sources: [3D city](https://sketchfab.com/3d-models/full-gameready-city-buildings-0545317292c44490af5408cb58633121) ; [Drone](https://assetstore.unity.com/packages/3d/vehicles/air/realistic-drone-66698) ; [Van]([https://lnkd.in/eyDwtDSi](https://assetstore.unity.com/packages/3d/vehicles/land/low-poly-vehicle-pack-lite-217344))
+Model sources: [3D city](https://sketchfab.com/3d-models/full-gameready-city-buildings-0545317292c44490af5408cb58633121) ; [Drone](https://assetstore.unity.com/packages/3d/vehicles/air/realistic-drone-66698) ; [Van](https://assetstore.unity.com/packages/3d/vehicles/land/low-poly-vehicle-pack-lite-217344)
 
 
 ### Day 11: Minimal Maps
