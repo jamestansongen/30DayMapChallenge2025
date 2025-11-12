@@ -11,6 +11,19 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 12: Map from 2125
+
+When I saw today’s theme, two thoughts came to mind. Firstly: What might maps look like in the year 2125? While traditional cartographic forms may still exist, I imagine future maps will be far more dynamic, integrated with real-time data and functioning as digital twins of the environments they represent. Secondly: I envision cities in 2125 developing a dynamic urban airspace, an ever-evolving layer of low-altitude traffic where drones operate for logistics, emergency response, and surveillance.
+
+For this challenge, I repurposed scripts from a previous project to build a functional drone delivery viewer. In the simulation, drones launch from trucks, navigate to delivery points, descend to delivery points (marked by a red box), and return to their base vehicles. It is a simple prototype, especially given the limited time. The system tracks both the number of active drones and completed deliveries in real time.
+
+I wish I had more time to expand the model as I wanted to introduce multiple drone types with distinct behaviors and experiment with alternative pathfinding algorithms. I am particularly interested in designing flight corridors for urban environments and exploring how agent-based systems could help shape the future of low-altitude airspace. If you have access to drone delivery datasets or are interested in collaborating on future simulations, I would love to connect.
+
+You can try out the simulation [here](https://deliverydroneunity.netlify.app/) (note: it may take a moment to load, and it is quite basic)
+
+Model sources: [3D city](https://lnkd.in/e6-K3_hy) ; [Drone](https://lnkd.in/eu8pZ_Nb) ; [Van](https://lnkd.in/eyDwtDSi)
+
+
 ### Day 11: Minimal Maps
 
 Today's theme leans towards simplicity and the HydroSHEDS datasets are a perfect fit. By colouring the rivers according to Classical Stream Order, the map reveals the source of each river system. The result is a minimal yet striking visualisation that traces the outline of the continent while almost resembling the pulsing heart of the land itself. The theme is also a good reminder than sparse data or focusing on not overcrowding the map can create rich geographic stories.
