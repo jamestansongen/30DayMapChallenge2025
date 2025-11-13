@@ -1,0 +1,56 @@
+// 1. Import Data and Set Study Area/Date Range
+// Import VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m
+// https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2
+var viirs = ee.ImageCollection('NASA/VIIRS/002/VNP46A2').select('DNB_BRDF_Corrected_NTL');
+
+// Define date range (winter months for better night visibility)
+var startDate = '2025-05-01';
+var endDate = '2025-05-31';
+
+// Filter by date range
+var filteredViirs = viirs.filterDate(startDate, endDate);
+
+// Define the regional bounds for New Zealand
+var newZealand = ee.Geometry.Polygon(
+  [[[165.0, -48.0],  // SW
+    [165.0, -33.0],  // NW
+    [181.0, -33.0],  // NE
+    [181.0, -48.0]]], // SE
+  null, false
+);
+
+//set the center for New Zealand
+Map.setCenter(172.0, -40.0, 5); // Center coordinates for New Zealand
+
+// Clip each image in the filtered collection to Iceland
+var clippedViirs = filteredViirs.map(function(image) {
+  return image.clip(newZealand);
+});
+
+// 2. Create Image (e.g. mean, max, median)
+// Create a composite image using the max function to highlight the brightest areas
+var compositeViirs = clippedViirs.max(); // Use max to keep the brightest pixels
+
+// 3. Visualise and Export Results
+// Set visualisation parameters
+var visParams = {
+  min: 0,
+  max: 30,
+  palette: ['000000', '003366', '006699', '33cc33', '66ff33', 'ccff99', 'ffffff']
+};
+
+// Add the VIIRS data to the map
+Map.addLayer(clippedViirs, visParams, 'VIIRS 2024 New Zealand');
+
+// Add the composite image to the map
+Map.addLayer(compositeViirs.visualize(visParams), {}, 'Composite Clipped VIIRS Image');
+
+// Export the composite image to Google Drive
+Export.image.toDrive({
+  image: compositeViirs.visualize(visParams), // Visualize to get the color
+  description: 'VIIRS_Composite_newZealand', // Name of the export task
+  scale: 500, // Scale
+  region: newZealand, // Study area
+  maxPixels: 1e13, 
+  fileFormat: 'GEOTIFF' 
+});
