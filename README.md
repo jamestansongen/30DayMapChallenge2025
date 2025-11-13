@@ -11,6 +11,19 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 13: 10 Minute Map
+
+Now this map took me less than 10 minutes to make (because I spent more than 10 minutes during last year's challenge making a similar visualisation). The main differences this time were adjusting the region of interest and adding labels to some of the cities in New Zealand. Using the VIIRS sensor data and choosing max pixel value for the whole month of June 2025, one is able to see which areas experience strong aurora activities.
+
+Reflecting on the theme of fast maps, humans probably cannot match AI in terms of speed. But looking at all the various entries this year I think humans still excel in creativity (and maybe accuracy to some degree).
+
+Afternote: For those interested in viewing auroras on a specific day, a recommended method is to generate a max pixel value map for that particular date. To provide context and account for potential gaps in satellite coverage, it would be helpful to include a mean pixel value map for the full month beneath it. This approach compensates for the patchiness seen in this dataset.
+
+![Day 13](Day%2013/Day%2013_June2025v2.png)
+
+Data Source: [VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2)
+
+
 ### Day 12: Map from 2125
 
 When I saw today’s theme, two thoughts came to mind. Firstly: What might maps look like in the year 2125? While traditional cartographic forms may still exist, I imagine future maps will be far more dynamic, integrated with real-time data and functioning as digital twins of the environments they represent. Secondly: I envision cities in 2125 developing a dynamic urban airspace, an ever-evolving layer of low-altitude traffic where drones operate for logistics, emergency response, and surveillance.
