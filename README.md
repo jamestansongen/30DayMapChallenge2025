@@ -19,7 +19,7 @@ Reflecting on the theme of fast maps, humans probably cannot match AI in terms o
 
 Afternote: For those interested in viewing auroras on a specific day, a recommended method is to generate a max pixel value map for that particular date. To provide context and account for potential gaps in satellite coverage, it would be helpful to include a mean pixel value map for the full month beneath it. This approach compensates for the patchiness seen in this dataset.
 
-![Day 13](Day%2013/Day%2013_June2025v2.png)
+![Day 13](Day%2013/Day%2013_June2025_v2.png)
 
 Data Source: [VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2)
 
