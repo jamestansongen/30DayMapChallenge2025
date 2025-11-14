@@ -13,7 +13,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 ### Day 14: Data: OpenStreetMap
 
-Nothing fancy today, just using prettymaps to style Toyko in the style of a circuitboard and cyberpunk.
+Nothing fancy today, hit a bit of a cartographer’s block. Tried two different takes on Tokyo with prettymaps: 1) Circuit board style and 2) Cyberpunk colour scheme.
 
 ![Day 14](Day%2014/Day%2014_circuitboard.png)
 ![Day 14](Day%2014/Day%2014_cyberpunk.png)
