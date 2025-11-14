@@ -11,6 +11,13 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 14: Data: OpenStreetMap
+
+Nothing fancy today, just using prettymaps to style Toyko in the style of a circuitboard and cyberpunk.
+
+![Day 14](Day%2014/Day%2014_circuitboard.png)
+![Day 14](Day%2014/Day%2014_cyberpunk.png)
+
 ### Day 13: 10 Minute Map
 
 Now this map took me less than 10 minutes to make (because I spent more than 10 minutes during last year's challenge making a similar visualisation). The main differences this time were adjusting the region of interest and adding labels to some of the cities in New Zealand. Using the VIIRS sensor data and choosing max pixel value for the whole month of June 2025, one is able to see which areas experience strong aurora activities.
@@ -22,7 +29,6 @@ Afternote: For those interested in viewing auroras on a specific day, a recommen
 ![Day 13](Day%2013/Day%2013_June2025_v2.png)
 
 Data Source: [VNP46A2: VIIRS Lunar Gap-Filled BRDF Nighttime Lights Daily L3 Global 500m](https://developers.google.com/earth-engine/datasets/catalog/NASA_VIIRS_002_VNP46A2)
-
 
 ### Day 12: Map from 2125
 
@@ -38,7 +44,6 @@ You can try out the simulation [here](https://deliverydroneunity.netlify.app/) (
 
 Model sources: [3D city](https://sketchfab.com/3d-models/full-gameready-city-buildings-0545317292c44490af5408cb58633121) ; [Drone](https://assetstore.unity.com/packages/3d/vehicles/air/realistic-drone-66698) ; [Van](https://assetstore.unity.com/packages/3d/vehicles/land/low-poly-vehicle-pack-lite-217344)
 
-
 ### Day 11: Minimal Maps
 
 Today's theme leans towards simplicity and the HydroSHEDS datasets are a perfect fit. By colouring the rivers according to Classical Stream Order, the map reveals the source of each river system. The result is a minimal yet striking visualisation that traces the outline of the continent while almost resembling the pulsing heart of the land itself. The theme is also a good reminder than sparse data or focusing on not overcrowding the map can create rich geographic stories.
@@ -46,7 +51,6 @@ Today's theme leans towards simplicity and the HydroSHEDS datasets are a perfect
 ![Day 11](Day%2011/Day%2011_SA.png)
 
 Data Source: [HydroSHEDS](https://lnkd.in/em4Thd4P)
-
 
 ### Day 10: Air
 
