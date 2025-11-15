@@ -11,6 +11,20 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 15: Fire
+
+We’ve reached the halfway mark of the challenge, and today’s theme led me to explore how remote sensing can be used to monitor volcanoes. Different Sentinel missions provide complementary insights: Sentinel-1 SAR detects land deformation, Sentinel-3 and Sentinel-5P capture thermal anomalies and surface temperature while Sentinel-5P also measures volcanic gas emissions.
+
+For lava flow analysis, I turned to Sentinel-2 imagery. I followed a workflow that combines True Colour and False Colour composites to highlight volcanic activity. Using this approach, I examined the Mt. Etna eruption between 16–23 February 2021, and obtained images from 16, 18, and 21 February. The image below shows the lava flow observed on 18 February 2021.
+
+One of the persistent challenges in volcanic remote sensing is cloud cover and volcanic gases, which can obscure the imagery. This was particularly noticeable when I attempted similar workflows for eruptions in Iceland and Hawaii, where dense gas plumes/clouds blocked much of the view. Probably experiment on the other methods for volcanic monitoring next time!
+
+![Day 15](Day%2015/Day%2015.png)
+
+Workflow Reference: [GoogleEarth Engine API Process to Visualize Lava Flow Eruption at Fernandina volcano in Jupyter Notebook](https://medium.com/@martin2kelko/googleearth-engine-api-process-to-visualize-lava-flow-eruption-at-fernandina-volcano-in-jupyter-591dce18e572)
+
+Data Source: [Harmonized Sentinel-2 MSI: MultiSpectral Instrument, Level-1C (TOA)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED)
+
 ### Day 14: Data: OpenStreetMap
 
 Nothing fancy today, hit a bit of a geomatics/geospatial/cartographer’s block. Tried two different takes on Tokyo with prettymaps: 1) Circuit board style and 2) Cyberpunk colour scheme.
