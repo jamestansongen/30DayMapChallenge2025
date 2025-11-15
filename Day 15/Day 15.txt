@@ -1,0 +1,83 @@
+// Sentinel-2 Lava Flow Visualization (Mount Etna Eruption)
+// Reference: https://medium.com/@martin2kelko/googleearth-engine-api-process-to-visualize-lava-flow-eruption-at-fernandina-volcano-in-jupyter-591dce18e572
+// Note this methodology will not work in cloudy areas or when the eruption produces a lot of gas
+
+// 1. Define ROI polygon for filtering relevant tiles
+var coords = [
+  [15.004, 37.751],
+  [15.004, 37.801],
+  [15.104, 37.801],
+  [15.104, 37.751],
+  [15.004, 37.751]
+];
+var polygon = ee.Geometry.Polygon(coords);
+Map.centerObject(polygon, 10);
+
+// 2. Define date range (choose start to end of eruption to obtain all images in those dates)
+var start_date = '2021-02-16'; 
+var end_date = '2021-02-23';
+
+// 3. Load Sentinel-2 harmonized collection ---
+var sentinel2 = ee.ImageCollection('COPERNICUS/S2_HARMONIZED')
+  .filterBounds(polygon)
+  .filterDate(start_date, end_date)
+  .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 100));
+
+print('Number of images:', sentinel2.size());
+
+// 4. Set visualisation parameters
+var natural_color_vis = {bands: ['B4','B3','B2'], min:0, max:3000, gamma:0.9}; // True colour
+var false_color_vis = {bands: ['B12','B11','B8A'], min:0, max:4000, gamma:0.8}; // False colour
+
+// 5. Function to create blended lava highlight
+function addThermalRadiation(image) {
+  var falseRGB = image.visualize(false_color_vis);
+  var naturalRGB = image.visualize(natural_color_vis);
+  var lavaMask = image.select('B12').gt(1500); // Takes the red channel of the false colour (i.e. B12 (SWIR2)) and applies a threshold to pick up the brightest/hottest spot
+  var combined = naturalRGB.blend(falseRGB.updateMask(lavaMask)); // Applies the mask from previous step so hot areas are retained in false colour and everything else becomes transparent
+  return combined; // Returns natural image but with lava areas
+}
+
+// 6. Function to get date string for labelling downloaded data
+function getDateString(image) {
+  var timestamp = image.get('SYSTEM:TIME_START');
+  var date = ee.Algorithms.If(
+    ee.Algorithms.IsEqual(timestamp, null),
+    ee.Date(image.get('system:time_start')),
+    ee.Date(timestamp)
+  );
+  return ee.Date(date).format('yyyyMMdd');
+}
+
+// 7. Loop over images and export full tiles
+var imgList = sentinel2.toList(sentinel2.size());
+var numImages = imgList.size().getInfo();
+
+for (var i = 0; i < numImages; i++) {
+  var img = ee.Image(imgList.get(i));
+
+  // Get acquisition date
+  var dateString;
+  try {
+    dateString = getDateString(img).getInfo();
+  } catch (e) {
+    dateString = 'image_' + i;
+  }
+
+  // Create blended lava highlight
+  var combined = addThermalRadiation(img);
+
+  // Add layer to GEE map
+  Map.addLayer(combined, {}, 'Blended Lava ' + dateString);
+
+  // Export full tile
+  Export.image.toDrive({
+    image: combined,
+    description: 'LavaFlow_Etna_' + dateString,
+    folder: 'Etna_Lava',
+    scale: 10,
+    maxPixels: 1e13
+  });
+
+  print('Export queued for image:', dateString);
+}
