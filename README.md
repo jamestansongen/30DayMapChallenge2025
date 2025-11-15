@@ -15,7 +15,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 We’ve reached the halfway mark of the challenge, and today’s theme led me to explore how remote sensing can be used to monitor volcanoes. Different Sentinel missions provide complementary insights: Sentinel-1 SAR detects land deformation, Sentinel-3 and Sentinel-5P capture thermal anomalies and surface temperature while Sentinel-5P also measures volcanic gas emissions.
 
-For lava flow analysis, I turned to Sentinel-2 imagery. I followed a workflow that combines True Colour and False Colour composites to highlight volcanic activity. Using this approach, I examined the Mt. Etna eruption between 16–23 February 2021, and obtained images from 16, 18, and 21 February. The image below shows the lava flow observed on 18 February 2021.
+For lava flow analysis, I turned to Sentinel-2 imagery. I followed a workflow that combines True Colour and False Colour composites to highlight volcanic activity. Using this approach, I examined the Mt. Etna eruption between 16–23 February 2021, and obtained images from 16, 18, and 21 February. The image below shows the lava flow observed on 21 February 2021.
 
 One of the persistent challenges in volcanic remote sensing is cloud cover and volcanic gases, which can obscure the imagery. This was particularly noticeable when I attempted similar workflows for eruptions in Iceland and Hawaii, where dense gas plumes/clouds blocked much of the view. Probably experiment on the other methods for volcanic monitoring next time!
 
