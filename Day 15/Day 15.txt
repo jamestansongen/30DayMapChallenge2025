@@ -1,4 +1,5 @@
 // Sentinel-2 Lava Flow Visualization (Mount Etna Eruption)
+// Reading Materials: https://www.copernicus.eu/en/news/news/observer-copernicus-sentinel-satellites-bring-new-insight-volcano-monitoring
 // Reference: https://medium.com/@martin2kelko/googleearth-engine-api-process-to-visualize-lava-flow-eruption-at-fernandina-volcano-in-jupyter-591dce18e572
 // Note this methodology will not work in cloudy areas or when the eruption produces a lot of gas
 
@@ -81,3 +82,4 @@ for (var i = 0; i < numImages; i++) {
 
   print('Export queued for image:', dateString);
 }
+
