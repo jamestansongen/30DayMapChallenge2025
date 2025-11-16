@@ -1,0 +1,66 @@
+// Related article: https://user.eumetsat.int/resources/case-studies/phytoplankton-blooms-spotted-by-sentinel-3
+// Data source: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI
+
+// 1. Define ROI (Baltic Sea)
+var baltic = ee.Geometry.Point([20, 57.5]);
+Map.centerObject(baltic, 5);
+
+// 2. Load Sentinel-3 OLCI L1 radiance (usually July to August for blooms)
+var s3 = ee.ImageCollection("COPERNICUS/S3/OLCI")
+            .filterDate('2019-07-25', '2019-07-26')
+            .filterBounds(baltic)
+            .first();
+
+print("Selected S3 image:", s3);
+
+// 3. Turbidity (Oa05 band, 510 nm, Chl, sediment, turbidity, red tide)
+var turbidity_single = s3.select('Oa05_radiance')
+                         .multiply(0.001)  // scale for visualization
+                         .rename('Turbidity_Oa05');
+
+Map.addLayer(
+  turbidity_single,
+  {min: 0, max: 0.1, palette: ['001122','0055aa','22ffaa','ffff00','ff0000']},
+  "Turbidity (Oa05)"
+);
+
+// 4. Turbidity (Oa05 band, 510 nm, Chl, sediment, turbidity, red tide) with white cloud mask
+var turbidity_whiteClouds = turbidity_single.where(turbidity_single.gt(0.05), 0.12);
+
+Map.addLayer(
+  turbidity_whiteClouds,
+  {min: 0, max: 0.1, palette: ['001122','0055aa','22ffaa','ffff00','ffffff']},
+  "Turbidity (White Clouds)"
+);
+
+// 5. True-colour-like RGB composite
+var rgbB = s3.select(['Oa08_radiance','Oa06_radiance','Oa04_radiance'])
+             .divide(300)
+             .clamp(0, 0.3);
+
+Map.addLayer(rgbB, {min:0, max:0.3}, "Baltic Sea RGB");
+
+// 6. Export all images to Google Drive
+Export.image.toDrive({
+  image: turbidity_single,
+  description: 'Baltic_Turbidity_Oa05',
+  folder: 'EarthEngineExports',
+  scale: 300,
+  region: baltic.buffer(1000000)  // 1000 km buffer around point
+});
+
+Export.image.toDrive({
+  image: turbidity_whiteClouds,
+  description: 'Baltic_Turbidity_WhiteClouds',
+  folder: 'EarthEngineExports',
+  scale: 300,
+  region: baltic.buffer(1000000)
+});
+
+Export.image.toDrive({
+  image: rgbB,
+  description: 'Baltic_RGB',
+  folder: 'EarthEngineExports',
+  scale: 300,
+  region: baltic.buffer(1000000)
+});
