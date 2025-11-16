@@ -11,6 +11,18 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 16: Cell
+
+For today’s theme I went with a bit of “cellception” 🌊🧩 Sentinel‑3 OLCI sensors can capture phytoplankton blooms by revealing their colour and spatial extent. Using Google Earth Engine, I downloaded a Sentinel‑3 OLCI image of the Baltic Sea on 25 July 2019, where cyanobacteria blooms are visible through eddy patterns.
+
+To push the theme further, I recreated the scene in a Lego‑style mosaic. This involves transforming the satellite image into a grid, calculating centroids, and applying the corresponding colours in QGIS. Note: You may need to zoom in slightly to see the individual Lego bricks. This style is a balance between revealing the blocky structure and preserving the underlying patterns in the image.
+
+![Day 16](Day%2016/Day%2016_compressed.png)
+
+Extra Readings: [Phytoplankton blooms spotted by Sentinel-3](https://user.eumetsat.int/resources/case-studies/phytoplankton-blooms-spotted-by-sentinel-3)
+
+Data Source: [Sentinel-3 OLCI EFR](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S3_OLCI)
+
 ### Day 15: Fire
 
 We’ve reached the halfway mark of the challenge, and today’s theme led me to explore how remote sensing can be used to monitor volcanoes. Different Sentinel missions provide complementary insights: Sentinel-1 SAR detects land deformation, Sentinel-3 and Sentinel-5P capture thermal anomalies and surface temperature while Sentinel-5P also measures volcanic gas emissions.
@@ -20,6 +32,8 @@ For lava flow analysis, I turned to Sentinel-2 imagery. I followed a workflow th
 One of the persistent challenges in volcanic remote sensing is cloud cover and volcanic gases, which can obscure the imagery. This was particularly noticeable when I attempted similar workflows for eruptions in Iceland and Hawaii, where dense gas plumes/clouds blocked much of the view. Probably experiment on the other methods for volcanic monitoring next time!
 
 ![Day 15](Day%2015/Day%2015.png)
+
+Extra Readings: [OBSERVER: Copernicus Sentinel satellites bring new insight to volcano monitoring](https://www.copernicus.eu/en/news/news/observer-copernicus-sentinel-satellites-bring-new-insight-volcano-monitoring)
 
 Workflow Reference: [GoogleEarth Engine API Process to Visualize Lava Flow Eruption at Fernandina volcano in Jupyter Notebook](https://medium.com/@martin2kelko/googleearth-engine-api-process-to-visualize-lava-flow-eruption-at-fernandina-volcano-in-jupyter-591dce18e572)
 
