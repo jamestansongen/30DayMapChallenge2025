@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 17: A New Tool
+
+Today I explored GeoAI for object detection, following [Qiusheng Wu](https://www.linkedin.com/in/giswqs/) car‑detection tutorial. The walkthrough made creating training data, training the detection model, and visualising results straightforward and informative. Going forward, I am keen to experiment creating labeled datasets for other use cases and apply to other locations.
+
+![Day 17](Day%2017/Day%2017_tutorial.png)
+
+Tutorial Source: [GeoAI Tutorial 15: Train a Deep Learning Model for Detecting Cars](https://www.youtube.com/watch?v=FrSnXaPrajo)
+
 ### Day 16: Cell
 
 For today’s theme I went with a bit of “cellception” 🌊🧩 Sentinel‑3 OLCI sensors can capture phytoplankton blooms by revealing their colour and spatial extent. Using Google Earth Engine, I downloaded a Sentinel‑3 OLCI image of the Baltic Sea on 25 July 2019, where cyanobacteria blooms are visible through eddy patterns.
