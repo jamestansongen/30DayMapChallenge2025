@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 18: Out of this World
+
+This was one of the most enjoyable maps I made and definitely among my favourite themes this season. It was my first time experimenting with planetary datasets beyond Earth, using the Mars DEM. I created an orthographic projection and plotted some of the largest visible features on this side of the planet. To enhance the design, I incorporated a few images, though they only capture part of Mars’s character as the planet also has ice caps, volcanoes and other features that deserve attention.
+
+![Day 18](Day%2018/Day%2018.png)
+
+Data Source: [Mars MGS MOLA - MEX HRSC Blended DEM Global 200m](https://astrogeology.usgs.gov/search/map/mars_mgs_mola_mex_hrsc_blended_dem_global_200m) ; [Mars Features](https://planetarynames.wr.usgs.gov/AdvancedSearch)
+
 ### Day 17: A New Tool
 
 Today I explored GeoAI for object detection, following [Qiusheng Wu](https://www.linkedin.com/in/giswqs/) car‑detection tutorial. The walkthrough made creating training data, training the detection model, and visualising results straightforward and informative. Going forward, I am keen to experiment creating labeled datasets for other use cases and apply to other locations.
