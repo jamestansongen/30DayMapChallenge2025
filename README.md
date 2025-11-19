@@ -11,6 +11,15 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 19: Projection (+Happy GIS Day!)
+
+The Spilhaus projection is one of my favourites because it highlights the ocean as a single continuous body of water. To create this map, I used bathymetry data from GEBCO, masked out land areas with elevations above sea level, and applied the projection in Python. The result is truly mesmerising and will probably extend this approach to other datasets such as global shipping traffic or tidal patterns in the future.
+
+![Day 19](Day%2019/Day%2019.png)
+
+Data Source: [Gridded Bathymetry Data](https://www.gebco.net/data-products/gridded-bathymetry-data)
+
+
 ### Day 18: Out of this World
 
 This was one of the most enjoyable maps I made and definitely among my favourite themes this season. It was my first time experimenting with planetary datasets beyond Earth, using the Mars DEM. I created an orthographic projection and plotted some of the largest visible features on this side of the planet. To enhance the design, I incorporated a few images, though they only capture part of Mars’s character as the planet also has ice caps, volcanoes and other features that deserve attention.
