@@ -21,6 +21,8 @@ Since I already made several water-themed maps this season, I switched things up
 
 I know I’m a day behind, but I’ll catch up over the weekend (life/work happens). 
 
+![Day 20](Day%2020/Day%2020_edited.png)
+
 Data Source: [LINZ Data Services](https://data.linz.govt.nz/data/)
 
 ### Day 19: Projection (+Happy GIS Day!)
