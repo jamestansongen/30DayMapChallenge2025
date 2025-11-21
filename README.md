@@ -11,6 +11,18 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 20 - Water
+
+Relative Elevation Models (REMs) use the river’s water surface as the baseline elevation rather than sea level, which helps reveal subtle floodplain features, traces of historical river migration, and valuable insights into river dynamics and floodplain evolution.
+
+Last year, I followed a QGIS tutorial to build one for the Humboldt River in the US. The process was quite manual and took me about two hours. This year, I tried the RiverREM package on the Waimakariri River in New Zealand. I expected it to take no more than 15 minutes, since it should have been just three function calls. Instead, I ran into outdated nested functions and package issues, which slowed me down. I finally got the map done after work today.
+
+Since I already made several water-themed maps this season, I switched things up and used a magma colour scheme for the river instead.
+
+I know I’m a day behind, but I’ll catch up over the weekend (life/work happens). 
+
+Data Source: [LINZ Data Services](https://data.linz.govt.nz/data/)
+
 ### Day 19: Projection (+Happy GIS Day!)
 
 The Spilhaus projection is one of my favourites because it highlights the ocean as a single continuous body of water. To create this map, I used bathymetry data from GEBCO, masked out land areas with elevations above sea level, and applied the projection in Python. The result is truly mesmerising and will probably extend this approach to other datasets such as global shipping traffic or tidal patterns in the future.
