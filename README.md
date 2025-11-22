@@ -11,6 +11,16 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 21 - Icon
+
+For today’s challenge I experimented with a Periodic Table / Pokédex‑style layout to showcase cryptids across the continental United States. The icons were generated using Google Gemini, one for each state. Interestingly, many states ended up with variations of Bigfoot‑like figures or lake monsters reminiscent of Nessie. I would love to hear from those based in the US (or anyone fascinated by cryptology, folklore, or conspiracy theories): Do you feel another cryptid would better represent your state’s local legends or folklore?
+
+Note: You may have to zoom in to use the name of the cryptids.
+
+Disclaimer: This map is intended for personal use only. The author does not support the use of AI-generated art in commercial contexts.
+
+![Day 21](Day%2021/Day%2021_compressed.png)
+
 ### Day 20 - Water
 
 Relative Elevation Models (REMs) use the river’s water surface as the baseline elevation rather than sea level, which helps reveal subtle floodplain features, traces of historical river migration, and valuable insights into river dynamics and floodplain evolution.
