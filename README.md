@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 22 - Data challenge: Natural Earth
+
+To be honest, many of the Natural Earth datasets felt a bit mundane as some were not comprehensive and others did not have the best resolution. In the end I decided to work with the time zones dataset, reprojected into a North Polar Stereographic view so the map resembles a clock. I used a color ramp from bright yellow for the earliest parts of the world to deep blue for the latest. And yes, my OCD was triggered when I noticed there are half‑hour offsets for some zones but not consistently across every hour.
+
+![Day 22](Day%2022/Day%2022.png)
+
+Data Source: [Land](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) ; [Time Zones](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)
+
 ### Day 21 - Icon
 
 For today’s challenge I experimented with a Periodic Table / Pokédex‑style layout to showcase cryptids across the continental United States. The icons were generated using Google Gemini, one for each state. Interestingly, many states ended up with variations of Bigfoot‑like figures or lake monsters reminiscent of Nessie. I would love to hear from those based in the US (or anyone fascinated by cryptology, folklore, or conspiracy theories): Do you feel another cryptid would better represent your state’s local legends or folklore?
