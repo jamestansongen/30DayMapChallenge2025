@@ -11,6 +11,16 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 23 - Process
+
+I excited to share that I have published my first Medium article! [From Satellite Pixels to Lego Bricks: Reimagining Google Earth Engine Images](https://medium.com/@jamestansongen94/from-satellite-pixels-to-lego-bricks-reimagining-google-earth-engine-images-20ba8dcfff80)
+
+The article builds on my Day 16 entry (Cells) and walks through how to download satellite imagery in Google Earth Engine and style it in QGIS. I would love to hear your thoughts or feedback on the article :)
+
+Using a placeholder image for today instead of repeating Day 16.
+
+![Day 23](Day%2023/Day%2023.png)
+
 ### Day 22 - Data challenge: Natural Earth
 
 To be honest, many of the Natural Earth datasets felt a bit mundane as some were not comprehensive and others did not have the best resolution. In the end I decided to work with the time zones dataset, reprojected into a North Polar Stereographic view so the map resembles a clock. I used a color ramp from bright yellow for the earliest parts of the world to deep blue for the latest. And yes, my OCD was triggered when I noticed there are half‑hour offsets for some zones but not consistently across every hour.
