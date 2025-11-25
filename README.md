@@ -11,6 +11,16 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 24 - Places and their names
+
+I originally set out to classify Singapore streets by their language of origin. However, the results from FastText were not very accurate, leading to misclassifications and false positives.
+ 
+So I pivoted to another idea, sparked by a friend who visited Singapore recently and asked whether the country has a hierarchy of roads (e.g. road>street). I explored street-naming conventions and discovered that certain words indicate road hierarchy, others suggest elevation (though in hindsight a few of these might not hold up when checked against the map), and some signal proximity to water.
+ 
+Using these patterns, I created a “firefly” style map of Singapore’s streets, illuminating how naming conventions reveal functional and contextual cues embedded in the urban landscape.
+
+![Day 24](Day%2024/Day%2024.png)
+
 ### Day 23 - Process
 
 I excited to share that I have published my first Medium article! [From Satellite Pixels to Lego Bricks: Reimagining Google Earth Engine Images](https://medium.com/@jamestansongen94/from-satellite-pixels-to-lego-bricks-reimagining-google-earth-engine-images-20ba8dcfff80)
