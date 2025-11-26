@@ -11,6 +11,18 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 25 - Hexagons
+
+Every year I seem to add a new dimension to my hexagons. In 2023, it was a single‑variable map. Last year, a bivariate one. And this year, decided to go with a 3D bivariate hexagon map of Iceland.
+
+Using WorldClim v2.1 climate data (1970–2000), I mapped annual mean precipitation and temperature, then incorporated Iceland’s elevation to build a 3D hex surface at H3 resolution 6 (each hexagon covers roughly 36 km²).
+
+Maybe next year I’ll push it further with a 3D trivariate map. For now, if you’d like to explore this one, you can check it out [here](https://jamestansongen.github.io/Iceland3Dbivariatemap/) (Heads up: it may take a moment to load.)
+
+![Day 25](Day%2025/Day%2025.png)
+
+Data Source: [WorldClim version 2.1 climate data for 1970-2000](https://www.worldclim.org/data/worldclim21.html)
+
 ### Day 24 - Places and their names
 
 I originally set out to classify Singapore streets by their language of origin. However, the results from FastText were not very accurate, leading to misclassifications and false positives.
