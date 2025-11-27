@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 26 - Transport
+
+Decided to do another network analysis to meet the theme. One of my favorite lessons during my time at the Centre for Advanced Spatial Analysis focused on network resilience — assessing how the network responds when critical stations are removed, and how connectivity and travel distances are affected.
+
+For this map, I used betweenness centrality to highlight the most critical stations in the London Underground. Although the importance of each station can change as the network evolves or critical nodes removed, this map is a simple way to understand which stations play a pivotal role in keeping the network connected.
+
+![Day 26](Day%2026/Day%2026.png)
+
 ### Day 25 - Hexagons
 
 Every year I seem to add a new dimension to my hexagons. In 2023, it was a single‑variable map. Last year, a bivariate one. And this year, decided to go with a 3D bivariate hexagon map of Iceland.
