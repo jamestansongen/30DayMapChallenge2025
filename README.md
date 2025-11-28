@@ -17,7 +17,7 @@ The US–Mexico border may just be a line on a map, but on the ground it is a co
 
 This map uses open data from No More Deaths to show recovered migrant deaths along the border from 2002 to 2025. However the records undercount the true scale of loss. Many people who go missing are never found, and data quality varies by region.
 
-![Day 27](Day%2027/Day%2027_edited.png)
+![Day 27](Day%2027/Day%2027_new.png)
 
 Data Source: [No More Deaths](https://nomoredeaths.org/migrant-death-mapping/)
 
