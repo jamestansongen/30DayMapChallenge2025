@@ -15,7 +15,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 The US–Mexico border may just be a line on a map, but on the ground it is a complex landscape. Border Patrol operations, surveillance systems, and fences form a human barrier, while the Rio Grande/Río Bravo creates a physical one. At this intersection of policy, geography, and human movement, people continue to lose their lives.
 
-This map uses open data from No More Deaths to show recovered migrant deaths along the border from 2002 to 2025. However the records undercount the true scale of loss. Many people who go missing are never found, and data quality varies by region.
+This map uses open data from No More Deaths to show recovered migrant deaths along the border from 2002 to 2025. However the records undercount the true scale of loss. Many people who go missing are never found, and data quality varies by region and across the years.
 
 ![Day 27](Day%2027/Day%2027_new.png)
 
