@@ -11,6 +11,14 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 27 - Boundaries
+
+The US–Mexico border may just be a line on a map, but on the ground it is a complex landscape. Border Patrol operations, surveillance systems, and fences form a human barrier, while the Rio Grande/Río Bravo creates a physical one. At this intersection of policy, geography, and human movement, people continue to lose their lives.
+
+This map uses open data from No More Deaths to show recovered migrant deaths along the border from 2002 to 2025. It represents the best available record of known cases — but it still undercounts the true scale of loss. Many people who go missing are never found, and data quality varies by region.
+
+
+
 ### Day 26 - Transport
 
 Decided to do another network analysis to meet the theme. One of my favorite lessons during my time at the Centre for Advanced Spatial Analysis focused on network resilience — assessing how the network responds when critical stations are removed, and how connectivity and travel distances are affected.
