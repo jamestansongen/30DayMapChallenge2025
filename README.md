@@ -11,6 +11,12 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 28 - Black
+
+Since the prompt was open to interpretation, I chose black as the background to give the maps a clean feel and to make the white joyplot ridges stand out with dramatic clarity. Using Python to automate the process, I experimented with different areas, and the four shown here are some of the results I found most compelling.
+
+![Day 28](Day%2028/Day%2028.png)
+
 ### Day 27 - Boundaries
 
 The US–Mexico border may just be a line on a map, but on the ground it is a complex landscape. Border Patrol operations, surveillance systems, and fences form a human barrier, while the Rio Grande/Río Bravo creates a physical one. At this intersection of policy, geography, and human movement, people continue to lose their lives.
