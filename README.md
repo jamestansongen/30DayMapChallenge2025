@@ -13,7 +13,13 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 ### Day 30 - Makeover
 
+For the final day of the #30DayMapChallenge, the theme was to makeover or redo a past map. Throughout the challenge, a few maps had strong conceptual ideas but fell short in execution. One example was Day 6 on Dimensions where I originally envisioned a 3D timelapse, but time constraints meant settling for a 2D version. I also considered Unity, but the GIS workflow there proved too time-consuming.
+
+This time, I finally managed to redeem that concept with a 3D timelapse of building heights in New Cairo, Egypt, created in QGIS. It may not be Unity, but it captures the original vision and gives a satisfying conclusion to the challenge.
+
 ![Day 30](Day%2030/Day%2030.gif)
+
+Data Source: [Open Buildings Temporal V1](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_Research_open-buildings-temporal_v1) ; [Cairo Buildings](https://data.nextgis.com/en/region/EG-CITY-001/msbld/?srsltid=AfmBOopgpSUPr-TJBHgsgers9Synr2SByfC5n1VOYbxi-72Xz3Ltoc37)
 
 ### Day 29 - Raster
 
