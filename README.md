@@ -13,7 +13,7 @@ For opportunities or collaboration, I can be contacted via [LinkedIn](https://ww
 
 ### Day 30 - Makeover
 
-![Day 30](Day%2030/Day%2030.mp4)
+![Day 30](Day%2030/Day%2030.gif)
 
 ### Day 29 - Raster
 
