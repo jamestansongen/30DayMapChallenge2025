@@ -1,0 +1,63 @@
+// Export presence + height (when available) for New Cairo area
+var geometry = ee.Geometry.Point([31.549876545106667, 30.011531513347673]);  
+var region = geometry.buffer(3000).bounds();  // 3 km radius area (change if needed)
+Map.centerObject(geometry, 13);
+
+var col = ee.ImageCollection('GOOGLE/Research/open-buildings-temporal/v1');
+
+// Retrieve timestamps (server-side object)
+var timestamps = col
+  .filterBounds(geometry)
+  .aggregate_array('system:time_start')
+  .distinct()
+  .sort();
+
+print("Available timestamps (server-side):", timestamps);
+
+// Evaluate timestamps to get a client-side list we can iterate
+timestamps.evaluate(function(tsList) {
+  if (!tsList || tsList.length === 0) {
+    print('No timestamps found for this location.');
+    return;
+  }
+
+  tsList.forEach(function(millis) {
+    // millis is a client-side number (ms since epoch)
+    var yearNum = new Date(Number(millis)).getFullYear();
+
+    // Build mosaic for that timestamp (server-side ee.Image)
+    var mosaic = col.filter(ee.Filter.eq('system:time_start', millis)).mosaic();
+
+    print('Processing year:', yearNum);
+
+    // Export building_presence (always present)
+    Export.image.toDrive({
+      image: mosaic.select('building_presence'),
+      description: 'NewCairo_Presence_' + yearNum,
+      region: region,
+      scale: 4,
+      maxPixels: 1e13
+    });
+
+    // Check band list client-side, then export height only if present.
+    mosaic.bandNames().evaluate(function(names) {
+      // names might be a string ('building_height') or an array ['building_presence', 'building_height']
+      if (names && ( (Array.isArray(names) && names.indexOf('building_height') !== -1) ||
+                     (typeof names === 'string' && names.indexOf('building_height') !== -1) )) {
+
+        Export.image.toDrive({
+          image: mosaic.select('building_height'),
+          description: 'NewCairo_Height_' + yearNum,
+          region: region,
+          scale: 4,
+          maxPixels: 1e13
+        });
+
+        print("✔ Export queued: NewCairo_Height_" + yearNum);
+      } else {
+        print("⚠ No building_height band for", yearNum, "— skipping height export.");
+      }
+    });
+
+  }); // end forEach
+}); // end evaluate
