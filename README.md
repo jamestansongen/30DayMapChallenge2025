@@ -11,6 +11,10 @@ I am currently a Principal Geomatics Engineer at the Singapore Land Authority an
 I specialise in Geographic Information Systems (GIS), Remote Sensing, Data Science, and Agent-Based Modelling, while my other interests include hiking, drone piloting/photography and board games. \
 For opportunities or collaboration, I can be contacted via [LinkedIn](https://www.linkedin.com/in/james-tan-song-en-76b73418a/)
 
+### Day 30 - Makeover
+
+![Day 30](Day%2030/Day%2030.mp4)
+
 ### Day 29 - Raster
 
 Australia is home to 180 terrestrial ecosystem types, out of a global total of 431. Using the World Terrestrial Ecosystems 2020 dataset with hillshade for topographic context, this map showcases the continent’s diverse landscapes - from tropical moist shrublands in the north, to subtropical dry sparsely vegetated areas in the interior, and warm temperate vegetated regions (croplands, forests, and shrublands) in the south. Collectively, these ecosystems support around 600,000 native plant and animal species, highlighting Australia’s unique and irreplaceable biodiversity.
